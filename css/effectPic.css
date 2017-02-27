@@ -1,0 +1,412 @@
+#content21 li:nth-child(3){color:white;background:#b70b07;}
+#content21 li:nth-child(3) a{color:white;}
+
+/*==========================分类块=========================*/
+.effectAssortment{
+    float:left;
+    width:238px;
+    height:320px;
+    border:1px solid #ccc;
+    box-shadow:2px 2px 10px 1px #ccc;
+    margin-bottom:20px;
+    margin-left:3px;
+    margin-top:5px;
+}
+.effectAssortment .eAsBlock{
+    width:240px;
+    height:79px;
+    border-bottom:1px dashed #ccc;
+    line-height:79px;
+}
+.effectAssortment .eAsBlock:nth-last-child(1){
+    border:none;
+}
+.eAsTitle{
+    width:58px;
+    height:42px;
+    border-right:1px solid #ccc;
+    line-height:42px;
+    text-align:center;
+    font-size:14px;
+    font-weight:bold;
+    display:inline-block;
+}
+.eAsWrap{
+    width:170px;
+    height:43px;
+    display:inline-block;
+}
+
+.eAsWrap span{
+    float:left;
+    height:12px;
+    line-height:12px;
+    font-size:12px;
+    margin:18px 10px 0 17px;
+}
+
+.eAsWrap span a{
+    color:#333;
+}
+/*==========================轮播图=========================*/
+#effectPicCon{
+    width:888px;
+    height:319px;
+    margin-left:9px;
+    margin-top:6px;
+    float:left;
+}
+
+#effectPicCon .swiper-slide img{
+    display:block;
+    width:100%;
+    height:100%;
+    position:relative;
+}
+
+#effectPicCon .swiper-slide .slideText{
+    position:absolute;
+    height:40px;
+    line-height:40px;
+    background:rgba(0,0,0,0.5);
+    width:100%;
+    bottom:0;
+    color:#fff;
+    font-size:14px;
+    text-indent:14px;
+}
+
+#effectPicCon .swiper-pagination{
+    text-align:right;
+    width:200px;
+    position:absolute;
+    bottom:10px;
+    right:20px;
+    left:auto;
+}
+
+#effectPicCon .swiper-pagination-bullet{
+    background:#ddd;
+}
+
+#effectPicCon .swiper-pagination-bullet-active{
+    background:orangered;
+}
+
+#effectPicCon .swiper-pagination span{
+    width:12px;
+    height:12px;
+    margin-right:10px;
+}
+/*==========================定制流程条=========================*/
+.freeOrderBar{
+    width:1138px;
+    border:1px solid #ccc;
+    background:#f6f6f6;
+    height:103px;
+    line-height:103px;
+    float:left;
+    margin-top:20px;
+}
+
+.freeOrderBar div{
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.freeOrderBarTitle{
+    width:165px;
+    height:53px;
+    line-height:53px;
+    font-size:24px;
+    font-weight:bold;
+    color:#333;
+    text-align:center;
+    display:inline-block;
+    border-right:1px solid #ccc;
+    margin-left:15px;
+    margin-right:20px;
+}
+
+.freeOrderBlock{
+    width:80px;
+    height:80px;
+    background-position:left center;
+    background-repeat:no-repeat;
+    margin-left: 10px;
+    padding-left: 44px;
+}
+
+.freeOrderBlock.order{
+    background-image:url(../img/12_06.png);
+}
+.freeOrderBlock.size{
+    background-image:url(../img/12_09.png);
+}
+.freeOrderBlock.seeIdea{
+    background-image:url(../img/12_12.png);
+}
+.freeOrderBlock.sendObj{
+    background-image:url(../img/12_14.png);
+}
+
+.freeOrderBlock .textBig{
+    font-size:16px;
+    font-weight:bold;
+    line-height:16px;
+    margin:21px 0 8px 0;
+}
+
+.freeOrderBlock .textSmall{
+    font-size:12px;
+    line-height:12px;
+}
+
+.freeOrderBarArrow{
+    width:25px;
+    height:16px;
+    background:url(../img/dottedArrowRight.png) no-repeat;
+}
+
+.freeOrderBar .orderButton{
+    width:160px;
+    height:42px;
+    line-height:42px;
+    color:#fff;
+    font-size:16px;
+    text-align:center;
+    background:#a80011;
+    display:inline-block;
+    vertical-align:middle;
+    margin-left:36px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+/*==========================流行风尚=========================*/
+
+.population{
+    width:936px;
+    height:518px;
+    float:left;
+    margin-top:50px;
+    padding-top:37px;
+}
+.population .topBorderTitle{
+    font-size:22px;
+    font-weight:bold;
+    height:24px;
+    width:100px;
+    position:absolute;
+    left:0;
+    top:-14px;
+    background:#fff;
+}
+
+.population img{
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+.population .border1pxSolidCCC{
+    position:relative;
+}
+
+.population .leftBlock{
+    width:600px;
+    height:295px;
+}
+.population .rightBlock{
+    width:326px;
+    height:295px;
+    margin-left:6px;
+}
+.population .fourBlock{
+    width:225px;
+    height:182px;
+    margin-right:9px;
+    margin-top:10px;
+}
+.population .fourBlock:nth-last-child(1){
+    margin-right:0;
+}
+.population .introduceText{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:32px;
+    background:rgba(0,0,0,0.6);
+    color:#fff;
+    text-indent:16px;
+    font-size:16px;
+    line-height:32px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+}
+
+/*==========================热门排行=========================*/
+
+.hot100{
+    width:168px;
+    height:560px;
+    margin-left:36px;
+    margin-top:40px;
+}
+.hot100Title{
+    font-size:16px;
+    margin-bottom:26px;
+}
+.hot100Ol{
+    width:170px;
+}
+.hot100Li{
+    list-style-type:decimal!important;
+    font-size:16px;
+    color:#333;
+    list-style-position:inside;
+    margin-bottom:14px;
+}
+.hot100LiText{
+    display:inline-block;
+}
+.hot100Li a{
+    color:#333;
+}
+
+.hot100LiPicNum{
+    font-size:12px;
+    color:#b6b6b6;
+    margin-left:16px;
+    margin-top:8px;
+}
+
+/*==========================精选美图=========================*/
+.bestPicArea{
+    width:100%;
+    margin-top:55px;
+    position:relative;
+    height:1130px;
+    padding-top:35px;
+}
+.bestPicAreaTitle{
+    font-size:22px;
+    font-weight:bold;
+    height:24px;
+    width:100px;
+    position:absolute;
+    left:50%;
+    top:-14px;
+    background:#fff;
+    margin-left:-50px;
+    text-align:center;
+}
+.bestPicArea .morePic{
+    color:#b7b7b7;
+    right:0;
+    top:-18px;
+    height:12px;
+    font-size:12px;
+    position:absolute;
+}
+
+.bestPicArea .highPicBlock{
+    width:275px;
+    height:520px;
+    margin-top:15px;
+}
+
+.bestPicArea .noRightMargin{
+    margin-right:0;
+}
+
+.bestPicArea .highPicBlock img{
+    height:480px;
+}
+
+.bestPicArea .normalPicBlock{
+    width:275px;
+    height:255px;
+}
+
+.bestPicArea .normalPicBlock img{
+    height:215px;
+}
+.bestPicBlock{
+    margin-right:13px;
+    margin-bottom:10px;
+}
+
+.bestPicBlock img{
+    display:block;
+    width:100%;
+}
+.bestPicArea .bestPicBlock{
+    position:relative;
+}
+
+.bestPicArea .picBlockTextArea{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:26px;
+    line-height:26px;
+}
+
+.picBlockTextArea .bestPicText{
+    font-size:16px;
+    color:#333;
+    display:inline-block;
+    text-align:left;
+    width:230px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+
+.picBlockTextArea .bestPicNum{
+    font-size:12px;
+    color:#fff;
+    display:inline-block;
+    text-align:center;
+    width:34px;
+    background:#a80011;
+    float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

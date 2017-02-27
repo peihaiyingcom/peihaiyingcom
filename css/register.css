@@ -1,0 +1,72 @@
+#content{width:100%;height:472px;background:#cf000e;margin-bottom:60px;padding-top:40px;}
+#content1L>div{float:left;margin:20px 0 0 28px;font-size:20px;}
+
+#content1{width:1230px;margin:0 auto;overflow:hidden;height:100%;}
+
+#content1>.left{margin-left:86px;width:563px;height:420px;}
+#denglu{width:300px;min-height:390px;border:1px solid #ccc;margin-right:40px;padding:15px;background:white;}
+#denglu1{overflow:hidden;}
+#zc1{overflow:hidden;}
+#denglu1 li{float:left;line-height:46px;font-size:16px;width:50%;text-align:center;color:#ccc;border-bottom:2px solid #ccc;cursor:pointer;}
+#zc1 li{float:left;line-height:46px;font-size:16px;width:33%;text-align:center;color:#ccc;border-bottom:2px solid #ccc;cursor:pointer;}
+#denglu1 .act{color:#cf000e;border-bottom:2px solid #cf000e;}
+#zc1 .act{color:#cf000e;border-bottom:2px solid #cf000e;}
+.register_1,.register_2{margin-top:35px;border:1px solid #ccc;height:36px;}
+.register_1 span,.register_2 span{width:36px;height:36px;float:left;background:#f6f6f6;border-right:1px solid #ccc;}
+.register_1 input,.register_2 input{width:261px;height:100%;border:none;float:left;text-indent:10px}
+.register_1 span{background:#f6f6f6 url(../img/register1.jpg) no-repeat 10px 10px}
+.register_2 span{background:#f6f6f6 url(../img/register2.jpg) no-repeat 10px 10px}
+.register_3{margin-top:26px;position:relative}
+.register_3 input{margin-top:3px;height:16px;display:inline-block; }
+.register_3 span{display:inline-block;margin-top:-5px;line-height:20px;position:absolute;top:5px;left:15px;}
+
+.register_4{text-align:center;width:100%;line-height:36px;background:#cf000e;color:white;font-size:16px;margin-top:5px;cursor:pointer;}
+.register_5{overflow:hidden;margin-top:20px;}
+.register_5 span{cursor:pointer;}
+.register_5 a{color:#333;}
+.register_6{margin-top:30px;}
+.register_7{min-height:30px;}
+.register_7>span{padding:0 7px 0 30px;height:30px;display:inline-block;cursor:pointer;}
+.register_7>span>span{padding-right:2px;border-right:1px solid #ccc;line-height:30px;}
+.register_7>span:nth-child(4)>span{border:none;}
+.register_7>span:nth-child(1){background:url(../img/register3.jpg) no-repeat;}
+.register_7>span:nth-child(2){background:url(../img/register4.jpg) no-repeat;}
+.register_7>span:nth-child(3){background:url(../img/register5.jpg) no-repeat;}
+.register_7>span:nth-child(4){background:url(../img/register6.jpg) no-repeat;}
+.ewm{width:130px;height:130px;padding:10px;border:1px solid #ccc;margin:40px auto 0;}
+.ewm1{text-align:center;margin-top:20px;font-size:16px;}
+.ewm2{text-align:center;margin-top:15px;color:#ccc;}
+
+#zc .register_1{margin-top:18px;}
+#tel span{background:#f6f6f6 url(../img/register8.jpg) no-repeat 10px 10px}
+#email span{background:#f6f6f6 url(../img/register1.jpg) no-repeat 10px 10px}
+#passw span{background:#f6f6f6 url(../img/register2.jpg) no-repeat 10px 10px}
+
+#yanZ{width:100%;height:36px;margin-top:18px;}
+#yanZ>div{width:45%;height:100%;line-height:36px }
+#yanZ>div:nth-child(1){border:1px solid #ccc;}
+#yanZ>div:nth-child(2){background:#dcdcdc;text-align:center;cursor:pointer;}
+#yanZ input{width:100%;height:100%;display:block;border:none;text-indent:3px;}
+
+#tab_dl{margin-top:30px;overflow:hidden;}
+#tab_dl span{cursor:pointer;}
+
+
+
+#companyName span{background:#f6f6f6 url(../img/register9.jpg) no-repeat 10px 10px}
+#attn span{background:#f6f6f6 url(../img/register10.jpg) no-repeat 10px 10px}
+#qytel span{background:#f6f6f6 url(../img/register8.jpg) no-repeat 10px 10px}
+#qyemail span{background:#f6f6f6 url(../img/register11.jpg) no-repeat 10px 12px}
+
+#qy_dz{overflow:hidden;margin-top:14px;}
+#qy_dz>div{width:45%;height:34px;border:1px solid #ccc;}
+#qy_dz>div>select{width:100%;height:100%;border:none;display:block;color:#ccc;}
+
+#qyChos .register_3{margin-top:13px;}
+.marsterBt{line-height:66px;font-size:16px;}
+.marsterBt2{margin:8px 0 45px 0;line-height:22px;}
+
+
+
+
+

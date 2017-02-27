@@ -1,0 +1,843 @@
+/*==========================面包屑导航=========================*/
+.breadNav a{
+    color:#333;
+}
+.breadNav{
+    margin-bottom:25px;
+}
+/*======================浏览图区=============================*/
+.lookPicArea{
+    width:384px;
+    height:630px;
+    float:left;
+}
+.lookPicWrap{
+    width:384px;
+    height:384px;
+    position:relative;
+}
+.lookPicWrap img{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+}
+.smallPicArea{
+    width:384px;
+    height:130px;
+    line-height:130px;
+    text-align:center;
+}
+.smallPicUlWrap{
+    width:384px;
+    height:80px;
+    display:inline-block;
+    vertical-align:middle;
+}
+.smallPicUl{
+    width:384px;
+    height:80px;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.smallPicLi{
+    width:64px;
+    height:64px;
+    display:inline-block;
+    vertical-align:middle;
+}
+.smallPicLi img{
+    width:100%;
+    height:100%;
+}
+.showImg{
+    display:none;
+}
+.smallPicLi.active{
+    border:2px solid #050504;
+}
+.shareP{
+    margin-top:10px;
+    margin-left:20px;
+    line-height:12px;
+}
+.shareP a{
+    color:#a8a8a8;
+    text-indent:14px;
+    display:inline-block;
+    font-size:12px;
+    margin-right:22px;
+}
+.shareP .share{
+    background:url(../img/nuy_21.jpg) no-repeat left center;
+}
+.shareP .addFavourite{
+    background:url(../img/nuy_18.jpg) no-repeat left center;
+}
+/*======================价格信息区=============================*/
+.priceInfoArea{
+    width:500px;
+    height:625px;
+    float:left;
+    margin-left:30px;
+}
+.priceInfoTitle{
+    font-size:18px;
+    line-height:18px;
+    color:#333;
+    font-weight:bold;
+    text-indent:3px;
+}
+.priceTitleTag{
+    background:#a80011;
+    color:#fff;
+    font-size:12px;
+    line-height:12px;
+    padding:0 3px;
+    margin-left:10px;
+    font-weight:normal;
+}
+.objType{
+    font-size:14px;
+    color:#a80001;
+    text-indent:3px;
+    margin-top:8px;
+}
+.corePriceArea{
+    width:500px;
+    height:113px;
+    background:#ececec;
+    margin-top:14px;
+    overflow:hidden;
+}
+.itemTitle{
+    font-size:12px;
+    color:#413636;
+    padding:0 14px 0 9px;
+    float:left;
+    display:inline-block;
+    vertical-align:middle;
+}
+.getContTicket{
+    line-height:18px;
+    height:18px;
+    margin-top:19px;
+    margin-bottom:16px;
+}
+.contTicket{
+    background:url(../img/nuy_10.jpg) no-repeat right center #a80011;
+    font-size:12px;
+    color:#fff;
+    padding:0 6px;
+    line-height:18px;
+    display:inline-block;
+    cursor:pointer;
+    margin-right:12px;
+}
+.contNowText{
+    font-size:12px;
+    color:#413636;
+}
+.clickGetCont{
+    float:right;
+    font-size:12px;
+    color:#a80001;
+}
+.corePriceWrap{
+    height:18px;
+    line-height:18px;
+    margin-top:12px;
+}
+.corePriceNumber{
+    font-size:18px;
+    color:#a80011;
+    font-weight:bold;
+}
+.sendWay{
+    margin:16px 0;
+    position:relative;
+}
+.sendChooseArea, .sendPrice{
+    color:#333;
+    background:url(../img/arrowDown.png) right center no-repeat;
+    padding-right:15px;
+    margin-right:15px;
+    cursor:pointer;
+}
+.chooseAreaTabCard,.chooseSendWayCard{
+    width:300px;
+    height:200px;
+    background:#fff;
+    border:1px solid #ccc;
+    position:absolute;
+    top:16px;
+    z-index:100;
+    display:none;
+}
+.chooseAreaTabCard{
+    left:30px;
+}
+.chooseSendWayCard{
+    left:200px;
+}
+.sendPrice{
+    color:#a80011;
+}
+.someSaleInfo{
+    width:500px;
+    height:38px;
+    margin-left:3px;
+    border-top:1px dashed #ccc;
+    border-bottom:1px dashed #ccc;
+    line-height:38px;
+}
+.someSaleInfoP{
+    display:inline-block;
+}
+.mouthSales, .allRates, .giveIntegration{
+    display:inline-block;
+    width:160px;
+    border-right:1px solid #ccc;
+    line-height:12px;
+    text-align:center;
+}
+.giveIntegration{
+    border-right:none;
+}
+.someSaleInfoP .redNum{
+    font-size:12px;
+    font-weight:bold;
+    color:#a80011;
+    cursor:pointer;
+}
+.chooseColor{
+    height:63px;
+    line-height:63px;
+}
+.colorBlockUl{
+    display:inline-block;
+    vertical-align:middle;
+    height:63px;
+    line-height:63px;
+}
+.colorBlockLi{
+    width:36px;
+    height:36px;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:5px;
+    background:#666;
+    border:1px solid #999;
+    position:relative;
+    cursor:pointer;
+}
+.colorBlockLi.active{
+    border:2px solid #a80011;
+}
+.colorText{
+    color:#fff;
+    text-shadow:#0a1115;
+    position:absolute;
+    bottom:0;
+    right:0;
+    height:12px;
+    line-height:12px;
+}
+.redTriangle{
+    position:absolute;
+    bottom:0;
+    right:0;
+    height:8px;
+    width:8px;
+}
+.colorBlockLi.active .redTriangle{
+    background:url(../img/duihao.png) no-repeat;
+}
+.chooseType{
+    line-height:30px;
+    margin-top:5px;
+}
+.typeBlockWrap{
+    width:500px;
+    display:inline-block;
+}
+.typeBlock{
+    display:inline-block;
+    border:1px solid #ccc;
+    padding:0 6px;
+    height:19px;
+    line-height:19px;
+    cursor:pointer;
+    margin-right:5px;
+}
+.typeBlock.active{
+    border-color:#a80011;
+}
+.privateSize{
+    height:40px;
+    line-height:40px;
+    margin-top:5px;
+}
+.sizeP input{
+    display:inline-block;
+    width:51px;
+    height:27px;
+    border:1px solid #ccc;
+    margin:0 25px 0 10px;
+    text-align:center;
+}
+.goodsNumberWrap{
+    height:40px;
+    line-height:40px;
+}
+.minusBtn, .plusBtn, .goodsNumber{
+    width:24px;
+    height:26px;
+    border:1px solid #ccc;
+    line-height:26px;
+    vertical-align:middle;
+    display:block;
+    background:#ededed;
+    font-size:14px;
+    color:#343434;
+    text-align:center;
+    cursor:pointer;
+    float:left;
+    margin-top:8px;
+}
+.goodsNumber{
+    border-left:none;
+    border-right:none;
+    background:#fff;
+    color:#333;
+    cursor:text;
+    width:54px;
+}
+.coreBtnArea{
+    height:80px;
+    padding-left:44px;
+    padding-top:20px;
+}
+.coreBtnArea input{
+    display:inline-block;
+    padding:0 20px;
+    line-height:38px;
+    border:1px solid #a80011;
+    font-size:22px;
+    background:#fff;
+    margin-right:9px;
+    cursor:pointer;
+}
+.coreBtnArea .addFavourite{
+    background:#a80011;
+    color:#fff;
+}
+.promiseText .payMethod{
+    color:#333;
+    background:url(../img/arrowDown.png) right center no-repeat;
+    padding-right:15px;
+    margin-right:15px;
+    cursor:pointer;
+    float:right;
+}
+
+/*======================店铺信息区=============================*/
+
+.shopInfoArea{
+    width:188px;
+    height:373px;
+    border:1px solid #ccc;
+    float:right;
+}
+.shopInfoTitle{
+    width:100%;
+    height:48px;
+    border-bottom:1px solid #ccc;
+    background:#fafafa;
+    line-height:48px;
+}
+.shopInfoTitleText{
+    font-size:12px;
+    color:#333;
+    font-weight:bold;
+    margin-left:16px;
+}
+.qqIcon{
+    width:16px;
+    height:17px;
+    line-height:17px;
+    display:inline-block;
+    background:url(../img/nuy_03.jpg) no-repeat;
+    vertical-align:middle;
+}
+.logoArea{
+    width:100%;
+    height:88px;
+    text-align:center;
+    line-height:88px;
+}
+.shopLogo{
+    width:114px;
+    height:44px;
+    display:inline-block;
+    vertical-align:middle;
+    border:1px solid #ccc;
+    background:url(../img/nuy_07.png) no-repeat;
+}
+.shopRateArea{
+    padding:0 5px;
+    height:34px;
+    line-height:34px;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:flex;
+    justify-content:space-around;
+}
+.shopRateBlock{
+    display:inline-block;
+    line-height:17px;
+    width:35px;
+    text-align:center;
+}
+.shopRateText{
+    color:#afafaf;
+}
+.shopRateNum{
+    color:#a80011;
+}
+.getInShopBtns{
+    width:170px;
+    height:70px;
+    margin:0 auto;
+    border-bottom:1px dashed #ccc;
+    text-align:center;
+}
+.getInShopBtns input{
+    margin-top:20px;
+    display:inline-block;
+    border:1px solid #ccc;
+    height:24px;
+    line-height:24px;
+    padding:0 10px;
+    background:#333;
+    color:#fff;
+    text-align:center;
+    cursor:pointer;
+}
+.getInShopBtns .getInShopBtnWhite{
+    background:#fafafa;
+    color:#333;
+}
+.shopLocalInfoArea{
+    padding-left:9px;
+    padding-top:22px;
+}
+.shopLocalInfoP{
+    margin-bottom:10px;
+}
+
+.shopLocalInfoTitle{
+    width:60px;
+    color:#b6b6b6;
+    text-align:justify;
+}
+.addFavouritePic{
+    width:190px;
+    height:213px;
+    float:right;
+    margin-top:10px;
+}
+.addFavouritePic a,.addFavouritePic img{
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+/*======================热销商品=============================*/
+.hotSales{
+    width:170px;
+    height:1188px;
+    float:left;
+    border:1px solid #ccc;
+    text-align:center;
+}
+.hotSalesTitle{
+    width:140px;
+    height:22px;
+    border-bottom:1px dashed #999;
+    margin:0 auto;
+    text-align:center;
+    margin-bottom:26px;
+}
+.hotSalesTitleText{
+    color:#999;
+    display:inline-block;
+    width:72px;
+    text-align:center;
+    position:relative;
+    bottom:-13px;
+    background:#fff;
+    z-index:100;
+}
+.hotSalesBlock{
+    width:140px;
+    height:140px;
+    position:relative;
+    margin:0px auto 20px;
+}
+.hotSalesBlock img{
+    width:100%;
+    height:100%;
+    display:block;
+}
+.hotSalesText{
+    width:100%;
+    height:20px;
+    line-height:20px;
+    text-align:center;
+    font-size:12px;
+    position:absolute;
+    bottom:0;
+    background:rgba(255,255,2555,0.7);
+}
+
+/*============================下方四个大选项卡=============================*/
+/*============================商品详情选项卡=============================*/
+#detailTabCardArea{
+    width:955px;
+    border:1px solid #ccc;
+    float:right;
+}
+#detailTabCardArea .tabsArea{
+    width:100%;
+    height:38px;
+    border-bottom:1px solid #ccc;
+    line-height:38px;
+    background:#fafafa;
+}
+#detailTabCardArea .tabsArea .tabsAreaLi{
+    display:inline-block;
+    border-right:1px solid #ccc;
+    width:125px;
+    text-align:center;
+    color:#666;
+    font-size:12px;
+    float:left;
+    cursor:pointer;
+}
+#detailTabCardArea .tabsArea .tabsAreaLi .redNum{
+    color:#a80011;
+}
+
+#detailTabCardArea .tabsArea .tabsAreaLi.active{
+    color:#a80011;
+    font-weight:bold;
+    border-bottom:none;
+    border-top:2px solid #a80011;
+    background:url(../img/nuy_27.jpg) center top no-repeat;
+    position:relative;
+    top:-1px;
+}
+#detailTabCardArea .tabContentDiv{
+    width:100%;
+    padding:20px 0;
+    display:none;
+}
+
+#goodsDetailContentDiv .goodsAllInfo{
+    border-bottom:1px solid #ccc;
+    padding-left:16px;
+
+}
+
+#goodsDetailContentDiv .brandName{
+    height:26px;
+    line-height:26px;
+    margin-bottom:26px;
+}
+#goodsDetailContentDiv .addFavouriteAfterBran{
+    display:inline-block;
+    width:75px;
+    height:22px;
+    background:url(../img/nuy_34.png) no-repeat;
+    vertical-align:middle;
+    margin-left:15px;
+}
+
+#goodsDetailContentDiv .allInfoTitle{
+    font-weight:bold;
+    font-size:12px;
+    color:#a59999;
+    margin-bottom:20px;
+}
+#goodsDetailContentDiv .someInfo{
+    margin-bottom:16px;
+}
+#goodsDetailContentDiv .someInfo .someInfoSpan{
+    display:inline-block;
+    width:220px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    padding-right:15px;
+    color:#666;
+}
+#goodsDetailContentDiv .someInfo.refund{
+    margin-top:16px;
+}
+
+#goodsDetailContentDiv .refundSpan{
+    font-weight:bold;
+}
+#goodsDetailContentDiv .detailAllPicArea{
+    padding:15px 0 30px 13px;
+}
+#goodsDetailContentDiv .detailAllPicArea img{
+    width:930px;
+    margin-bottom:10px;
+}
+/*============================关注推荐模块=============================*/
+.recommendArea{
+    width:935px;
+    border:1px solid #ccc;
+    border-top:2px solid #ccc;
+    padding:16px 0 32px 20px;
+    float:right;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.recommendTitle{
+    font-size:12px;
+    color:#333;
+    margin-bottom:14px
+}
+.recommendBlock{
+    width:210px;
+    height:284px;
+    margin-right:20px;
+    float:left;
+}
+.recommendBlock img{
+    width:210px;
+    height:210px;
+    display:block;
+}
+.recommendBlockText{
+    text-indent:8px;
+    font-size:12px;
+    width:210px;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+    color:#333;
+    margin-top:34px;
+}
+.recommendBlockPrice{
+    margin-top:10px;
+    padding-left:10px;
+}
+.recommendBlockPrice .recommendBlockPriceNow{
+    font-size:14px;
+    color:#a80011;
+    font-weight:bold;
+}
+.recommendBlockPrice .recommendBlockPricePast{
+    font-size:12px;
+    color:#666;
+}
+
+/*============================用户评论选项卡=============================*/
+#customerRates .tagsArea{
+    height:96px;
+    border-bottom:1px solid #ccc;
+    line-height:96px;
+}
+#customerRates .tagsArea .ratePercentage{
+    width:80px;
+    margin-left:17px;
+    display:inline-block;
+    vertical-align:middle;
+    text-align:center;
+}
+#customerRates .tagsArea .ratePercentage .ratePerText{
+    font-size:12px;
+    line-height:12px;
+    margin-top:3px;
+}
+#customerRates .tagsArea .ratePercentage .ratePerNum{
+    font-size:20px;
+    line-height:20px;
+    font-weight:bold;
+    color:#a80011;
+    margin-top:5px;
+}
+#customerRates .tagsArea .everyoneSay{
+    width:12px;
+    display:inline-block;
+    line-height:12px;
+    vertical-align:middle;
+    padding-left:25px;
+    margin-right:5px;
+    border-left:1px solid #ccc;
+    color:#333;
+}
+#customerRates .tagsArea .tags{
+    display:inline-block;
+    vertical-align:middle;
+    width:800px;
+}
+#customerRates .tagsArea .tags .hotRateTag{
+    height:21px;
+    border:1px solid #ccc;
+    border-radius:1px;
+    line-height:21px;
+    text-align:center;
+    padding:0 9px;
+    float:left;
+    margin:5px 5px 5px 0;
+    color:#333;
+}
+#customerRates .allRatesNum{
+    height:38px;
+    border-bottom:1px solid #ccc;
+    background:#fafafa;
+    line-height:38px;
+    padding-left:10px;
+}
+#customerRates .allRatesNum a{
+    padding:0 13px;
+    display:inline-block;
+    color:#333;
+}
+
+#customerRates .allRatesNum .allRateNumTotal{
+    color:#a80011;
+}
+#customerRates .customerRatesDetailArea{
+
+}
+#customerRates .customerRatesDetailArea .customerRateBlock{
+    padding:20px 0 15px 17px;
+    border-bottom:1px solid #ccc;
+    overflow:hidden;
+}
+#customerRates .customerRatesDetailArea .customerRateBlock .customerName{
+    width:107px;
+    font-size:12px;
+    float:left;
+    padding-left:5px;
+    padding-top:3px;
+}
+#customerRates .customerRatesDetailArea .customerRateBlock .customerName a{
+    display:block;
+    color:#333;
+    margin-bottom:10px;
+}
+
+#customerRates .customerRatesDetailArea .customerRateBlock .rateContBlock{
+    float:left;
+    width:806px;
+
+}
+#customerRates .customerRatesDetailArea .customerRateBlock .rateContBlock .rateContText{
+    font-size:12px;
+    line-height:22px;
+}
+#customerRates .customerRatesDetailArea .customerRateBlock .rateContBlock .ratePicUl{
+    height:80px;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+#customerRates .customerRatesDetailArea .customerRateBlock .rateContBlock .ratePicUl .ratePicLi{
+    width:50px;
+    height:50px;
+    border:1px solid #ccc;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-right:10px;
+}
+#customerRates .customerRatesDetailArea .customerRateBlock .rateContBlock .ratePicUl .ratePicLi img{
+    max-width:48px;
+    max-height:48px;
+    vertical-align:middle;
+}
+#customerRates .customerRatesDetailArea .customerRateBlock .rateContBlock .boughtTypeTime{
+    height:30px;
+    line-height:30px;
+    color:#9999b2;
+    font-size:12px;
+    padding-bottom:10px;
+}
+#customerRates .customerRatesDetailArea .customerRateBlock .rateContBlock .boughtTypeTime span{
+    margin-right:24px;
+}
+#customerRates .customerRatesDetailArea .customerRateBlock .reToCustomer{
+    padding-top:12px;
+    border-top:1px solid #ccc;
+}
+#customerRates .customerRatesDetailArea .customerRateBlock .reToCustomer p{
+    line-height:24px;
+    color:#ff561c;
+}
+#customerRates .customerRatesDetailArea .customerRateBlock .reToCustomer .reToCusTime{
+    color:#9999b2;
+    margin-top:3px;
+}
+#customerRates .pageDivider{
+    height:122px;
+    line-height:122px;
+    text-align:center;
+}
+
+#customerRates .pageDivider .pagination{
+    display:inline-block;
+    vertical-align:middle;
+    line-height:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

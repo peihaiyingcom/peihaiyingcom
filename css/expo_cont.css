@@ -1,0 +1,21 @@
+.breadNav a{color:#333;}
+#content411{border:none;}
+#content415{overflow:hidden;}
+#banner_1{width:480px;height:280px;float:left;}
+#zhjs{width:272px;height:279px;float:left;border:1px solid #ccc;padding-left:22px;}
+#zhjs>p:nth-child(1){font-weight:900;line-height:42px;font-size:18px; }
+#zhjs>p:nth-child(2){line-height:35px;font-size:16px; }
+#zhjs>p:nth-child(4){line-height:25px; }
+#zhjs>p:nth-child(5){line-height:25px; }
+#zhjs>p:nth-child(6){line-height:60px; }
+.djBtn{width:156px;line-height:36px;color:white;background:#a80011;margin:0 auto;text-align:center;font-size:18px;}
+
+#content412{overflow:hidden;}
+#detailTabCardArea{width:774px;float:left;margin-top:40px;}
+#detailTabCardArea .tabContentDiv{padding-bottom:0;}
+.tabContentDiv ul{padding: 0 350px 23px 16px;overflow:hidden;border-bottom:1px solid #ccc;}
+.tabContentDiv ul li{width:180px;float:left;color:#7f7f7f;}
+
+.expo_js{padding:0 15px 110px;border-bottom:1px solid #ccc;}
+.expo_js .red{margin-top:30px; }
+.expo_js .ccc{text-indent:24px;line-height:21px;margin-top:20px;}

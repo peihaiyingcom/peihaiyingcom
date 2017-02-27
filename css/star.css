@@ -1,0 +1,31 @@
+
+#content21 li:nth-child(5){color:white;background:#b70b07;}
+#content21 li:nth-child(5) a{color:white;}
+#content{width:100%;min-width:1230px;}
+#banner{width:100%;height:440px;}
+#banner img{width:100%;height:100%;}
+.yemmActive{background:#b70b07;color:white;}
+.swiper-container{width:100%;height:100%;}
+#contentHtml{width:1230px;margin:60px auto 0;border-top:1px solid #666666;position:relative;}
+#contentHtmlBt{width:134px;font-size:22px;font-weight:900;position:absolute;left:593px;top:-18px;background:white;text-align:center }
+
+.contentHtmlChos{text-align:center;margin-top:35px;}
+
+.contentHtmlChos span{padding:0 24px;background:url(../img/dian.jpg) no-repeat 0 6px;cursor:pointer;}
+.contentHtmlChos span:nth-child(1){background:none;font-weight:900; }
+#cpntentHtmlPic{display: -moz-flex; display: -webkit-flex;display: -o-flex;display: flex;flex-wrap:wrap;justify-content:space-between;width:1230px;margin:0 auto;}
+#cpntentHtmlPic li{margin-top:30px;width:390px;height:318px;border:1px solid #ccc;border-radius:10px;overflow:hidden;background:#f6f6f6 }
+#cpntentHtmlPic li img{width:100%;height:238px;}
+#cpntentHtmlPic li p{text-align:center; }
+#cpntentHtmlPic li p:nth-child(2){font-size:20px;margin-top:10px;}
+#cpntentHtmlPic li p:nth-child(3){font-size:12px;margin-top:12px;}
+
+#contentHtmlyema{height:40px;width:560px;text-align:center;margin:56px auto 0;}
+#contentHtmlyema .left{height:36px;line-height:36px;cursor:pointer;}
+#contentHtmlyema input{width:36px;height:20px;margin:0 6px;}
+#contentHtmlyema>span:nth-child(3){margin:0 6px;}
+#contentHtmlyema>span:nth-child(5){margin-left:10px;}
+.pre,.next{width:70px;line-height:36px;border:1px solid #ccc;}
+.yema{margin-left:10px;}
+.trueBtn{width:43px;height:21px;line-height:21px;text-align:center ;border:1px solid #ccc;margin-top:8px;cursor:pointer;}
+.yema li{float:left;width:36px;line-height:36px;border:1px solid #ccc;text-align:center }

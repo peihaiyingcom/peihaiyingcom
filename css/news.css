@@ -1,0 +1,82 @@
+#content21 li:nth-child(8){color:white;background:#b70b07;}
+#content21 li:nth-child(8) a{color:white;}
+.border_b{border-bottom:2px solid black;display:inline-block;padding-bottom:2px;}
+.border_n{border:none;}
+#banner{width:100%;height:400px;margin:0 auto;border:1px solid #ccc;background:#e3ebee;}
+#banner img{width:100%;height:100%;}
+.allPic{width:100%;height:100%;}
+.swiper-container{width:1230px;height:100%;margin:0 auto;}
+.marginT25{margin-top:25px;}
+#content{width:100%;}
+#content3{width:1230px;height:50px;margin:0 auto;background:#f6f6f6;}
+#content3>div{width:378px;float:left;padding-top:14px;border-right:1px dashed #ccc;height:36px;}
+#content3>div:nth-child(3){border:none;}
+#content3>div>div{line-height:20px;float:left;}
+#content3>div>div:nth-child(1){margin-left:45px;font-weight:900; font-size:16px;padding-right:15px;border-right:1px solid #ccc;}
+
+#content3>div>div:nth-child(2){font-size:12px;line-height:20px;}
+#content3>div>div:nth-child(2) span{padding:0 10px;cursor:pointer;}
+
+#content4{width:1230px;margin:45px auto 0;}
+#content4>div:nth-child(2){width:100%;height:300px;display: -moz-flex; display: -webkit-flex;display: -o-flex;display: flex;flex-wrap:wrap;justify-content:space-between;margin-top:24px}
+#content4>div:nth-child(2)>div{width:388px;height:100%;}
+.pic_word{width:100%;height:133px;}
+.pic_word .left{width:184px;height:133px;}
+.pic_word .left img{width:100%;height:100%;}
+.pic_word .right{width:180px;height:133px;}
+.pic_word21{line-height:26px;font-size:16px;}
+.enterXq{margin-top:10px;line-height:20px;color:#666;}
+.enterXq .red{cursor:pointer;}
+
+.two_line{margin-top:20px;height:63px;border-bottom:1px dashed #ccc;}
+.noNumBt{text-indent:13px;background:url(../img/dian.jpg) no-repeat 0 8px;background-size:4px 4px;font-size:16px;}
+.two_lineXq{margin-top:20px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;width:100%;}
+
+
+.newsBt_{width:100%;overflow:hidden;}
+.newsBt_>.left{font-size:24px;line-height:26px;color:#333;cursor:pointer;}
+.newsBt_>.right{font-size:12px;line-height:26px}
+
+
+#content5{width:1230px;height:310px;display: -moz-flex; display: -webkit-flex;display: -o-flex;display: flex;flex-wrap:wrap;justify-content:space-between;margin:45px auto;}
+#content5>div{width:388px;}
+
+.one_line{width:100%;line-height:40px;border-bottom:1px dashed #ccc;overflow: hidden;}
+.one_line_dian{overflow: hidden;white-space: nowrap;text-overflow:ellipsis;color:#484848;width:99%;text-indent:12px;background:url(../img/dian.jpg) no-repeat 0 19px;}
+.one_line .ccc{width:58px;}
+.elipse{width:290px;margin-left:12px;overflow: hidden;white-space: nowrap;text-overflow:ellipsis;color:#484848;}
+
+
+.shiCpic{width:100%;height:133px;}
+.shiCpic img{width:100%;height:100%;}
+
+#content6{width:1230px;margin:0 auto;}
+
+.swiper-container1,.swiper-container2{overflow:hidden;position:relative;width:100%;height:100%;}
+.swiper-container1 img,.swiper-container2 img{width:100%;height:100%;}
+.swiper-container1 .swiper-pagination-bullet,.swiper-container2 .swiper-pagination-bullet{width:22px;height:22px;border-radius:0;background:#cccccc;line-height:22px;text-align:center;opacity:1;}
+.swiper-container1 .swiper-pagination-bullet-active,.swiper-container2 .swiper-pagination-bullet-active{background:#ff6600;color:white;}
+.swiper-container1 .swiper-pagination,.swiper-container2 .swiper-pagination{text-align:right;}
+
+
+#content7{width:1230px;margin:45px auto;}
+#content71{height:255px;width:100%;display: -moz-flex; display: -webkit-flex;display: -o-flex;display: flex;flex-wrap:wrap;justify-content:space-between;}
+#content71>div{width:275px;}
+.Opic_Ol img{width:100%;height:225px;}
+.Opic_Ol p{margin-top:13px;color:#5a5a5a;}
+
+
+
+#content8{width:1230px;margin:0 auto;overflow:hidden; }
+#content81{float:left;width:800px;height:350px;}
+#content82{float:right;width:385px;height:350px;}
+#content81 ul{height:300px;margin-top:20px;}
+#content81 li{width:100%;height:100%;display: -moz-flex; display: -webkit-flex;display: -o-flex;display: flex;flex-wrap:wrap;justify-content:space-between;}
+#content81 li>div{width:380px;height:100%;}
+#content82 .shiCpic{padding-top:3px;}
+
+#content9{width:1230px;margin:45px auto;}
+#content10{width:1230px;margin:0 auto;}
+#content10_{width:1230px;margin-top:25px;display: -moz-flex; display: -webkit-flex;display: -o-flex;display: flex;flex-wrap:wrap;justify-content:space-between;}
+#content10_>div{width:385px;height:300px;}
+

@@ -1,0 +1,44 @@
+#content21 li:nth-child(8){color:white;background:#b70b07;}
+#content21 li:nth-child(8) a{color:white;}
+#content21 li:nth-child(1){color:white;background:none;}
+#content21 li:nth-child(1) a{color:black;}
+#content21 li:nth-child(5){color:white;background:none;}
+#content21 li:nth-child(5) a{color:black;}
+#content{width:100%;}
+#content3{width:1230px;height:50px;margin:0 auto;background:#f6f6f6;}
+#content3>div{width:378px;float:left;padding-top:14px;border-right:1px dashed #ccc;height:36px;}
+#content3>div:nth-child(3){border:none;}
+#content3>div>div{line-height:20px;float:left;}
+#content3>div>div:nth-child(1){margin-left:45px;font-weight:900; font-size:16px;padding-right:15px;border-right:1px solid #ccc;}
+
+#content3>div>div:nth-child(2){font-size:12px;line-height:20px;}
+#content3>div>div:nth-child(2) span{padding:0 10px;cursor:pointer;}
+
+
+#banner{width:1230px;height:88px;margin:10px auto;}
+
+#content4{width:1230px;margin:40px auto;overflow:hidden}
+#content41 {width:840px;float:left;border-right:1px solid #ccc;padding-right:35px;}
+.news_listActive{color:#ce0014;border-bottom:2px solid #ce0014}
+#content411{overflow:hidden;width:840px;border-bottom:1px solid #ccc;}
+#content411 li{padding:0 0 10px 0;height:32px;float:left;margin-right:45px;font-size:22px;cursor:pointer;}
+#content412 li{padding:27px 0;overflow:hidden;border-bottom:1px solid #ccc;}
+#content412 img{width:190px;height:145px;}
+#content412 li .right{width:612px;height:145px;}
+.news_listBt{line-height:40px;font-size:16px; }
+.news_listTime{margin-top:50px;}
+
+
+#content42 {width:293px;float:right;height:1293px;}
+#content22L{margin-top:5px;}
+#content421{margin-top:20px;}
+.content421Bt{overflow:hidden; }
+.content421Bt .left{font-size:20px;line-height:50px; }
+.content421Bt .right{margin-top:20px;font-size:12px;cursor:pointer;}
+
+.content421Bann{width:100%;height:139px;}
+
+.content421List li{height:105px;width:100%;margin-top:15px;}
+.content421List li p:nth-child(1){text-indent:8px;border-left:3px solid #ce0014;font-size:16px;}
+.content421List li p:nth-child(2){margin-top:18px;}
+.content421List li p:nth-child(3){margin-top:10px;color:#666666;}

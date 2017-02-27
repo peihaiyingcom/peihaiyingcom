@@ -1,0 +1,321 @@
+#content21 li:nth-child(4){color:white;background:#b70b07;}
+#content21 li:nth-child(4) a{color:white;}
+/*=================================================banner图================================================================*/
+#banner{
+    width:1140px;
+    height:403px;
+    background:url(../img/banner.jpg) center center no-repeat;
+    background-size:contain;
+    margin:0 auto;
+}
+#bannerWrap{
+    width:100%;
+    height:403px;
+    background:#000;
+}
+/*=================================================地图区域================================================================*/
+.mapArea{
+    padding-top:20px;
+    width:100%;
+}
+.mapHead{
+    width:100%;
+    height:65px;
+    border-bottom:2px black solid;
+}
+.queryTitle{
+    width:160px;
+    float:left;
+    font-size:24px;
+    font-weight:bold;
+    height:60px;
+    line-height:60px;
+}
+.chooseAreaWrap{
+    float:left;
+    width:450px;
+    height:60px;
+    line-height:60px;
+    padding-left:30px;
+}
+.areaBtn{
+    display:inline-block;
+    width:124px;
+    height:38px;
+    border:1px solid #ccc;
+    border-radius:2px;
+    line-height:38px;
+    text-align:center;
+    position:relative;
+    margin-right:8px;
+}
+.areaBtn .areaText{
+    font-size:14px;
+    color:#484848;
+    text-indent:-5px;
+    cursor:pointer;
+}
+.areaBtn .arrowDown{
+    width:10px;
+    height:5px;
+    position:absolute;
+    right:17px;
+    top:19px;
+    background:url(../img/down.jpg) no-repeat;
+    cursor:pointer;
+}
+.areaBtn .tabCard{
+    width:400px;
+    background:#ffffff;
+    position:absolute;
+    overflow:hidden;
+    top:39px;
+    z-index:999;
+    border:1px solid #ccc;
+    left:-141px;
+    padding:25px;
+    padding-right:0;
+    display:none;
+}
+.areaBtn .tabCard .tabCardLi{
+    width:80px;
+    font-size:12px;
+    color:#000;
+    margin:0 10px 10px 0px;
+    height:20px;
+    line-height:20px;
+    cursor:pointer;
+    border:1px solid #ccc;
+    float:left;
+}
+
+.breadNav{
+    float:right;
+    width:450px;
+    height:60px;
+    line-height:80px;
+    text-align:right;
+}
+
+.breadNav .breadNavArea{
+    font-size:14px;
+    color:#a80011;
+    margin-right:11px;
+    display:inline-block;
+}
+#nowSalesText{
+    color:black;
+}
+#nowSalesNum{
+    color:#a80011;
+    padding:0 3px;
+}
+.mapBodyArea{
+    width:100%;
+    height:452px;
+    margin-top:31px;
+}
+/*=================================================店主信息================================================================*/
+.areaInformation{
+    width:202px;
+    height:452px;
+    float:left;
+    margin-right:20px;
+}
+.infoTitle{
+    width:200px;
+    border:1px solid #ccc;
+    height:48px;
+    line-height:48px;
+    font-size:12px;
+    font-weight:bold;
+    text-align:center;
+    background:#fafafa;
+}
+.infoBody{
+    width:185px;
+    height:401px;
+    border-right:1px solid #ccc;
+    border-left:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    padding-left:15px;
+}
+.infoBody .salesBlock{
+    padding-top:25px;
+    padding-bottom:20px;
+    width:170px;
+    border-bottom:1px dashed #ccc;
+}
+.infoBody .salesBlock p{
+    font-size:12px;
+    color:#b6b6b6;
+    padding:6px 0;
+    overflow:hidden;
+}
+
+.infoBody .salesBlock p span{
+    font-size:12px;
+    color:#000;
+}
+#salesLocation{
+    width:115px;
+    float:right;
+}
+.salesBtnWrap{
+    padding-top:30px;
+    width:170px;
+    text-align:center;
+    line-height:40px;
+}
+.salesBtn{
+    width:139px;
+    height:26px;
+    display:inline-block;
+    cursor:pointer;
+}
+#onlineService{
+    background:url(../img/zbService_03.jpg) no-repeat;
+}
+#freeOrder{
+    background:url(../img/zbService_06.png) no-repeat;
+}
+#baiduMap{
+    width:918px;
+    height:452px;
+    background:#ccc;
+    float:left;
+}
+
+/*=================================================地区网点列表================================================================*/
+.salesList{
+    margin-top:40px;
+    overflow:hidden;
+    padding-bottom:50px;
+}
+.salesListHead{
+    height:60px;
+    margin-bottom:10px;
+}
+.salesListHead .locationText{
+    font-size:12px;
+    color:#000;
+    float:left;
+    margin-left:15px;
+    margin-top:25px;
+}
+#salesListUl{
+    width:1138px;
+    border:1px solid #ccc;
+    overflow:hidden;
+    padding-bottom:20px;
+}
+#salesListUl .salesListLi:nth-child(odd){
+    background:#fff;
+}
+#salesListUl .salesListLi:nth-child(even){
+    background:#f7f7f7;
+}
+
+#salesListUl .salesListLi{
+    height:110px;
+    line-height:110px;
+}
+#salesListUl .salesListLi .block{
+    height:64px;
+    border-right:1px solid #ccc;
+    padding:0 15px;
+    display:inline-block;
+    vertical-align:middle;
+    line-height:64px;
+}
+#salesListUl .salesListLi .lastBlock{
+    border-right:none;
+}
+
+.redBubble{
+    width:32px;
+    height:47px;
+    background:url(../img/zbService_16.png) no-repeat;
+    line-height:35px;
+    font-size:12px;
+    color:#fff;
+    text-align:center;
+    margin-top:10px;
+    margin-right:18px;
+    margin-left:30px;
+    float:left;
+}
+.salesListLi .salesShopName,.salesListLi .locationText{
+    width:320px;
+    font-size:12px;
+    color:#adadad;
+    line-height:16px;
+}
+.salesListLi .salesShopName{
+    font-weight:bold;
+    color:#333;
+    margin-bottom:12px;
+}
+
+.salesListLi .time p:nth-child(1),.salesListLi .workHistory p:nth-child(1){
+    margin-top:8px;
+}
+
+.salesListLi div p{
+    line-height:24px;
+}
+.salesListLi .manName{
+    line-height:64px;
+}
+.salesListLi .onlineService,.salesListLi .freeOrder{
+    width:150px;
+    height:40px;
+    background:url(../img/zbService_09.jpg) no-repeat;
+    display:inline-block;
+    vertical-align:middle;
+    cursor:pointer;
+}
+.salesListLi .freeOrder{
+    background:url(../img/zbService_11.jpg) no-repeat;
+}
+/*=================================================常见问题================================================================*/
+.usuallyFQ{
+    overflow:hidden;
+    font-weight:normal;
+    width:100%;
+    background:#f6f6f6;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-bottom:25px;
+}
+.usuallyFQTitle{
+    color:#313131;
+    font-size:24px;
+    margin-bottom:30px;
+}
+.usuallyFQ_title{
+    color:#313131;
+    font-size:18px;
+    margin-bottom:15px;
+}
+.usuallyFQ_text{
+    color:#727272;
+    font-size:12px;
+    margin-bottom:28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

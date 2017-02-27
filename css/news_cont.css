@@ -1,0 +1,24 @@
+#content21 li:nth-child(8){color:white;background:#b70b07;}
+#content21 li:nth-child(8) a{color:white;}
+#content21 li:nth-child(1){color:white;background:none;}
+#content21 li:nth-child(1) a{color:black;}
+#content21 li:nth-child(5){color:white;background:none;}
+#content21 li:nth-child(5) a{color:black;}
+.breadNav a{color:#333;}
+#content411{margin-top:13px;}
+#content411>div:nth-child(1){padding-bottom:14px;border-bottom:1px solid #ccc}
+.news_bigBt{line-height:50px;font-size:22px;font-weight:900;}
+#content411>div:nth-child(2){padding-bottom:14px;line-height:27px;color:#333333;}
+.news_conS{text-indent:24px;}
+.pic_wz{width:430px;height:260px;margin:20px auto;}
+.pic_wz img{width:100%;height:225px;}
+.pic_wz p{line-height:40px;font-weight:900;text-align: center;font-size:14px;}
+
+#content411>div:nth-child(3){padding-bottom:14px;line-height:27px;color:#ccc;}
+
+#content4122{margin-top:30px;}
+#content4122>div:nth-child(1){font-size:22px;text-indent:5px;border-left:3px solid #d10f22;}
+.content421List1 li{line-height:45px;border-bottom:1px dashed #ccc;text-indent:5px;background:url(../img/dian.jpg) no-repeat 0 20px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;cursor:pointer;}
+.content421_{width:100%;height:300px;margin-top:40px;}
+
+

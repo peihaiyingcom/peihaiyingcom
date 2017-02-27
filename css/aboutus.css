@@ -1,0 +1,26 @@
+#content{width:100%;min-height:1140px;}
+#banner{width:1140px;margin:0 auto;height:315px;}
+#banner img{width:100%;height:100%;}
+#content4{overflow:hidden;width:1140px;margin:20px auto;}
+#content41{width:190px;}
+#content41>p{text-align:center;line-height:40px;background:#f6f6f6;font-size:18px;}
+#content41>ul>li{padding-bottom:40px;}
+#content41>ul>li p{padding-left:75px;line-height:24px;}
+#content41>ul>li p a{color:black;}
+#content41>ul>li p .red{color:#cb090b;}
+#content41>ul>li p:nth-child(1){line-height:40px;font-size:18px; }
+#content41>ul>li:nth-child(1) p:nth-child(1){background:url(../img/aboutus2.jpg) no-repeat 45px 8px;}
+
+#content42{width:915px;overflow:hidden }
+#content42>div{padding-bottom:40px;}
+.about_bbt{padding-left:10px;border-left:4px solid #cb090b;font-size:20px;}
+.about_con{border-top:1px solid #ccc;margin-top:10px;padding-top:30px;}
+.about_con1{font-weight:900;font-size:14px;}
+.about_con2{line-height:20px;margin-top:10px; }
+.about_con3{line-height:60px;font-weight:900; }
+.about_con4{font-weight:900;}
+.rzlc{background:url(../img/aboutus6.jpg) no-repeat 0 30px;height:314px;background-size:100% 284px;}
+.about_rzzn{color:#333;font-size:12px;}
+.about_rzzn p span{padding-left:32px;}
+.about_rzzn p{margin-top:10px;}
+.about_rzzn>.about_conRz:nth-child(2){margin-top:18px;}

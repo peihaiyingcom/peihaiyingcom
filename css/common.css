@@ -1,0 +1,14 @@
+.content{
+    width:1140px;
+    margin:0 auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    overflow:hidden;
+}
+.topBorderDiv{
+    border-top:1px dashed #ccc;
+    position:relative;
+}
+.border1pxSolidCCC{
+    border:1px solid #ccc;
+}
