@@ -1,0 +1,29 @@
+#myself_4R{float:left;width:910px;margin-left:100px;min-height:10px;border:1px solid #ccc;padding:10px;}
+
+#myself_4R .myself_2R21{border:none;padding-top:5px;}
+#myself_4R .myself_2R21 ul{width:600px;}
+.sc{margin:0 6px;}
+
+.myself_4R1>div{overflow:hidden;line-height:32px;border:1px solid #ccc;background:#f1f1f1;}
+.myself_4R1>div>div{float:left;}
+.myself_4R11{width:100px;text-align:center;}
+.myself_4R12{width:550px;}
+.myself_4R13{width:120px;margin-left:70px;}
+.myself_4R14{width:60px;}
+
+.myself_4R1 ul{overflow:hidden;}
+.myself_4R1 ul li{padding-top:20px;height:50px;border-bottom:1px dashed #f1f1f1;}
+.myself_4R1 ul li>div{float:left;}
+.myself_4R1 ul li .myself_4R11{text-align:left;}
+
+.yiD_{background:url(../img/myself_xx1.jpg) no-repeat 40px 10px;}
+.weiD_{background:url(../img/myself_xx2.jpg) no-repeat 40px 10px;}
+
+.myself_4R11 input{margin:10px;}
+
+.myself_4R12>p:nth-child(1){font-size:14px;font-weight:900;width:100%;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.myself_4R12>p:nth-child(2){margin-top:7px;width:100%;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.myself_4R1 ul li .myself_4R13{line-height:40px;}
+.myself_4R1 ul li .myself_4R14{height:30px;background:url(../img/myself8.jpg) no-repeat 3px 10px;background-size:16px 16px;cursor:pointer;}
+
+

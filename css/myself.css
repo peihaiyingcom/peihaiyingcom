@@ -1,4 +1,6 @@
 #content{width:100%;min-width:1230px;}
+.myself_chos .red{color:#db2521;}
+.red{color:#a80011;}
 .myself_bo{background:url(../img/myself10.jpg) no-repeat 0 43px;background-size:100% 13px;}
 .myself_2R12 .no_b{border:none;}
 #myself_1{width:100%;min-width:1230px;margin:0 auto;height:56px;background:#a80011;}
@@ -84,4 +86,18 @@
 
 #myself_2L>div:nth-child(2) .myself_lBt{background:#f1f1f1 url(../img/myself4.jpg) no-repeat 5px 3px;}
 #myself_2L>div:nth-child(3) .myself_lBt{background:#f1f1f1 url(../img/myself5.jpg) no-repeat 5px 5px;}
+
+
+
+#contentHtmlyema{height:40px;width:560px;text-align:center;margin:56px auto 0;}
+#contentHtmlyema .left{height:36px;line-height:36px;cursor:pointer;}
+#contentHtmlyema input{width:36px;height:20px;margin:0 6px;}
+#contentHtmlyema>span:nth-child(3){margin:0 6px;}
+#contentHtmlyema>span:nth-child(5){margin-left:10px;}
+.pre,.next{width:70px;line-height:36px;border:1px solid #ccc;}
+.yema{margin-left:10px;}
+.trueBtn{width:43px;height:21px;line-height:21px;text-align:center ;border:1px solid #ccc;margin-top:8px;cursor:pointer;}
+.yema li{float:left;width:36px;line-height:36px;border:1px solid #ccc;text-align:center }
+.yemmActive{background:#b70b07;color:white;}
+
 
