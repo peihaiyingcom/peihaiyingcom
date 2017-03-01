@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/buy.css">
     <link rel="stylesheet" href="css/pagination.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
 </head>
 <!--袁阳 2017.2.18-->
 <body>
@@ -810,6 +811,63 @@
     </div>
 
 </div>
+<div class="freeOrderModalWrap">
+    <div class="freeOrderModal">
+        <div class="closeModal" onselectstart="return false;">+</div>
+        <form class="consumerInfo">
+            <h3 class="modalTitle">免费预约测量<span class="customerNumText">今天已有<span class="customerNum">999</span>名业主申请</span></h3>
+            <table class="formTable">
+                <tr>
+                    <td class="formControlLeft">您的称呼：</td>
+                    <td class="formControlRight"><input class="formControlRightInput" name="name" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="formControlLeft">手机号码：</td>
+                    <td class="formControlRight"><input class="formControlRightInput" name="mobilePhone" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="formControlLeft">所在区域：</td>
+                    <td class="formControlRight">
+                        <select class="areaSelect">
+                            <option class="placeHolder" value="0">省/市</option>
+                        </select>
+                        <select class="areaSelect">
+                            <option class="placeHolder"  value="0">市/地区</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="formControlLeft"></td>
+                    <td class="formControlRight"><input class="formControlRightInput" name="detailLocation" placeholder="请输入详细地址" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="formControlLeft">测量时间：</td>
+                    <td class="formControlRight">
+                        <select class="formControlRightInput" name="orderTime"></select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="formControlLeft">建筑面积：</td>
+                    <td class="formControlRight"><input class="formControlRightInput" name="proportion" placeholder="单位：㎡" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="formControlLeft">设计风格：</td>
+                    <td class="formControlRight"><input class="formControlRightInput" name="designStyle" type="text"></td>
+                </tr>
+                <tr>
+                 <td class="readMeTr" colspan="2">
+                     <input class="readMeCbx" type="checkbox"/>我已阅读并接受《众湃免费测量常见问题条款》
+                 </td>
+                </tr>
+                <tr>
+                    <td class="readMeTr" colspan="2">
+                        <input class="confirmForm" type="submit" value="马上申请"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
 <div id='footer'>
     <div id='footer1'>
         <ul>
@@ -1014,6 +1072,13 @@
         callback: function() { return false; }
     });
 
+    //摸态框
+    $('.freeOrderBtn').click(function () {
+        $('.freeOrderModalWrap').show(500);
+    });
+    $('.closeModal').click(function () {
+        $('.freeOrderModalWrap').hide();
+    });
 
 
 </script>

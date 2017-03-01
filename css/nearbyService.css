@@ -2,7 +2,7 @@
 #content21 li:nth-child(4) a{color:white;}
 /*=================================================banner图================================================================*/
 #banner{
-    width:1140px;
+    width:1230px;
     height:403px;
     background:url(../img/banner.jpg) center center no-repeat;
     background-size:contain;
@@ -180,7 +180,7 @@
     background:url(../img/zbService_06.png) no-repeat;
 }
 #baiduMap{
-    width:918px;
+    width:1008px;
     height:452px;
     background:#ccc;
     float:left;
@@ -204,7 +204,7 @@
     margin-top:25px;
 }
 #salesListUl{
-    width:1138px;
+    width:1228px;
     border:1px solid #ccc;
     overflow:hidden;
     padding-bottom:20px;
@@ -223,7 +223,7 @@
 #salesListUl .salesListLi .block{
     height:64px;
     border-right:1px solid #ccc;
-    padding:0 15px;
+    padding:0 20px;
     display:inline-block;
     vertical-align:middle;
     line-height:64px;

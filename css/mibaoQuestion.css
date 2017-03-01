@@ -1,0 +1,114 @@
+.myself_2R21 h3{
+    width:auto;
+}
+.myself_2R21New h3{
+    height:30px;
+}
+.myself_2R21New .pre_Btn{
+    margin-right:10px;
+}
+.myself_2R21New .littleTitle{
+    font-size:12px;
+    color:#999;
+    margin-left:20px;
+    margin-top:4px;
+}
+#myself_2 .red{
+    color:#a80011;
+}
+.consumerInfo{
+    width:420px;
+    height:430px;
+    margin-top:30px;
+    padding-left:10px;
+}
+.modalTitle{
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+.customerNumText{
+    font-size:12px;
+    font-weight:normal;
+    margin-left:10px;
+    color:#666;
+}
+.customerNum{
+    color:#a80011;
+}
+.formTable tr{
+    height:46px;
+    line-height:46px;
+}
+.formControlLeft{
+    font-size:12px;
+    width:70px;
+    text-align:center;
+}
+.formControlRightInput{
+    width:330px;
+    height:28px;
+    border:1px solid #ccc;
+    border-radius:3px;
+    text-indent:10px;
+    vertical-align:middle;
+}
+.placeHolder{
+
+}
+.questionSelect{
+    width:332px;
+    height:30px;
+    border:1px solid #ccc;
+    border-radius:3px;
+    padding-left:10px;
+    margin-right:20px;
+    display:inline-block;
+    color:#999;
+}
+.readMeTr{
+    text-align:center;
+}
+.readMeCbx{
+    vertical-align:middle;
+    margin-right:3px;
+}
+.confirmForm{
+    width:155px;
+    height:42px;
+    background:#a80011;
+    font-size:22px;
+    line-height:40px;
+    text-align:center;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    margin-top:42px;
+}
+#myself_2L div:nth-child(1) .myself_lBt{
+    background-image:url(../img/myself_9999_03.png);
+}
+#myself_2L div:nth-child(2) .myself_lBt{
+    background-image:url(../img/myself_9999_07.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

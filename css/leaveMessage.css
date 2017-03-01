@@ -1,0 +1,105 @@
+.myself_2R21New h3{
+    margin-right:45px;
+}
+.tabSpan{
+    width:50px;
+    text-align:center;
+    color:#666;
+    display:inline-block;
+    vertical-align:sub;
+}
+#manageMsgTab{
+    width:100%;
+    margin-top:18px;
+}
+#manageMsgTab thead{
+    background:#f1f1f1;
+    border:1px solid #ccc;
+    height:31px;
+    line-height:31px;
+}
+#manageMsgTab thead tr td:nth-child(1){
+    padding-left:46px;
+    width:620px;
+}
+#manageMsgTab thead tr td:nth-child(2){
+   width:150px;
+}
+#manageMsgTab tbody tr{
+    border-bottom:1px dashed #ccc;
+    height:84px;
+}
+#manageMsgTab tbody tr:last-child{
+    border:none;
+}
+#manageMsgTab .checkboxDiv{
+    float:left;
+    width:48px;
+    height:84px;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.msgCheckBox{
+    width:14px;
+    height:14px;
+    background:#fff;
+    display:block;
+    float:left;
+}
+.msgText{
+    float:left;
+    width:610px;
+}
+.msgTextP1{
+    font-size:12px;
+    color:#333;
+    font-weight:bold;
+    margin-top:24px;
+    margin-bottom:7px;
+}
+.msgTextP2{
+    font-size:12px;
+    color:#666;
+}
+.deleteMsgWrap{
+    width:80px;
+    height:84px;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.deleteMsg{
+    width:15px;
+    height:15px;
+    background:url(../img/deleteBlk.png) no-repeat;
+    display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

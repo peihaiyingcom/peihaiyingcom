@@ -5,13 +5,13 @@
 }
 
 .brandPic{
-    width:1140px;
+    width:1230px;
     height:108px;
     margin:0 auto;
     line-height:108px;
 }
 .logoPic{
-    width:440px;
+    width:460px;
     height:80px;
     border-right:1px solid #ccc;
     background:url(../img/shop_03.png) left center no-repeat;
@@ -24,7 +24,7 @@
     height:77px;
     display:inline-block;
     vertical-align:middle;
-    margin-left:18px;
+    margin-left:35px;
 }
 .shopDescribeLi{
     line-height:20px;
@@ -45,7 +45,7 @@
     background:#a80011;
 }
 .shopNav{
-    width:1140px;
+    width:1230px;
     height:33px;
     margin:0 auto;
 }
@@ -72,7 +72,7 @@
     background:#625f50;
 }
 .shopBanner{
-    width:1140px;
+    width:1230px;
     height:410px;
     margin:0 auto;
 }
@@ -82,7 +82,7 @@
 }
 .stepFlu{
     margin:0 auto;
-    width:1140px;
+    width:1230px;
     height:356px;
     background:url(../img/5bao.png) no-repeat center center;
 }
@@ -251,7 +251,7 @@
 /*======================联系客服=============================*/
 
 .content832{
-    width:832px;
+    width:920px;
 }
 .serviceBar{
     width:100%;
@@ -313,8 +313,8 @@
 }
 .seriesBigPic{
     float:left;
-    width:411px;
-    height:246px;
+    width:452px;
+    height:260px;
     margin-bottom:18px;
 }
 .seriesBigPic img{
@@ -323,8 +323,8 @@
     display:block;
 }
 .seriesPicBlock{
-    width:202px;
-    height:246px;
+    width:222px;
+    height:260px;
     float:left;
     margin-left:8px;
     margin-bottom:18px;
@@ -333,8 +333,8 @@
     margin-left:0;
 }
 .seriesPicBlock img{
-    width:202px;
-    height:202px;
+    width:222px;
+    height:222px;
 }
 .seriesPicText{
     font-size:12px;
@@ -361,18 +361,18 @@
 .shopHotSaleBlock{
     float:left;
     position:relative;
-    width:269px;
-    height:372px;
+    width:298px;
+    height:400px;
     border:1px solid #ccc;
     margin-right:9px;
 }
-.shopHotSaleBlock:nth-of-type(3){
+.shopHotSaleBlock:nth-of-type(3n){
     margin-right:0;
 }
 .shopHotSaleBlock img{
-    width:265px;
-    height:265px;
-    margin:2px auto;
+    width:285px;
+    height:285px;
+    margin:5px auto;
     display:block;
 }
 .shopHotSaleBlockP1{
@@ -380,7 +380,7 @@
     line-height:32px;
 }
 .shopHotSalesPrice{
-    margin-left:3px;
+    margin-left:5px;
     font-size:16px;
     color:#a80011;
 }
@@ -397,7 +397,7 @@
     padding:0 3px;
     background:#a80011;
     margin-top:6px;
-    margin-right:3px;
+    margin-right:8px;
 }
 .shopHotSaleBlockP2{
     padding:0 5px;
@@ -407,7 +407,7 @@
     position:absolute;
     bottom:0;
     height:29px;
-    width:263px;
+    width:292px;
     left:3px;
     line-height:29px;
 }
@@ -416,14 +416,14 @@
     border-right:1px solid #ccc;
     height:29px;
     float:left;
-    width:131px;
+    width:145px;
     text-align:left;
 }
 .hotSalesRate{
     display:block;
     height:29px;
     float:left;
-    width:131px;
+    width:145px;
     text-align:right;
 }
 .hotSalesSoldNum{
@@ -457,7 +457,7 @@
     margin-top:0;
 }
 .shopRecommend{
-    width:635px;
+    width:700px;
     float:right;
 }
 .shopRecommend .hotSalesSold{
@@ -468,8 +468,8 @@
 }
 .shopRecommend .shopHotSaleBlock{
     border:none;
-    width:207px;
-    height:284px;
+    width:229px;
+    height:305px;
     margin-right:6px;
     margin-bottom:10px;
 }
@@ -477,8 +477,8 @@
     margin-right:0;
 }
 .shopRecommend .shopHotSaleBlock img{
-    width:207px;
-    height:207px;
+    width:229px;
+    height:229px;
 }
 
 

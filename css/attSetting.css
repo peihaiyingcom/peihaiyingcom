@@ -1,0 +1,28 @@
+#myself_2L>div:nth-child(1) .myself_lBt{background:#f1f1f1 url(../img/attSetting1.jpg) no-repeat 5px 3px;}
+#myself_2L>div:nth-child(2) .myself_lBt{background:#f1f1f1 url(../img/attSetting2.jpg) no-repeat 5px 2px;}
+
+
+#myself_3R{float:left;width:930px;margin-left:100px;min-height:10px; }
+.attBt{line-height:36px;width:100%;text-indent:20px;background:#f5f8fa;}
+.myself_3R12{overflow:hidden;padding:20px;height:140px;width:100%;box-sizing: border-box;border:1px solid #ccc;}
+.myself_3R12 img{width:94px;height:94px;border:2px solid #ccc;}
+.myself_3R12>div{margin-left:35px;width:280px;}
+.myself_3R12>div p{margin-top:12px;overflow:hidden;}
+.myself_3R12>div p a,.myself_3R211>div a,.myself_3R212 a{color:#3366cc;}
+
+.myself_3R2{margin-top:20px;}
+.myself_3R21{border:1px solid #ccc;padding:0 20px;box-sizing:border-box;}
+.myself_3R211{width:100%;overflow:hidden;margin:30px 0;}
+.myself_3R211>div{float:left;}
+.jdt{width:288px;height:12px;background:#ccc;margin:3px 20px;}
+.jdt span{width:66%;height:100%;display:block;}
+.b_red{background:#a80011;}
+.myself_3R2111{text-indent:26px;background:url(../img/attSetting4.jpg) no-repeat 8px 1px;}
+.myself_3R212 li{height:50px;padding-top:17px;border-bottom:1px dashed #ccc;}
+.myself_3R212 li>span{float:left;}
+.myself_3R212 li>span:nth-child(1){width:80px;text-indent:20px;}
+.myself_3R212 li>span:nth-child(2){width:100px;}
+.myself_3R212 li>span:nth-child(3){width:320px;}
+.myself_3R212 li>span:nth-child(4){padding-left:63px;}
+.att_ok{background:url(../img/attSetting5.jpg) no-repeat 2px 1px;}
+.att_no{background:url(../img/attSetting6.jpg) no-repeat 2px 1px;}

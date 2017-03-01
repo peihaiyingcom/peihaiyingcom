@@ -50,9 +50,9 @@
 }
 /*==========================轮播图=========================*/
 #effectPicCon{
-    width:888px;
+    width:974px;
     height:319px;
-    margin-left:9px;
+    margin-left:13px;
     margin-top:6px;
     float:left;
 }
@@ -100,7 +100,7 @@
 }
 /*==========================定制流程条=========================*/
 .freeOrderBar{
-    width:1138px;
+    width:1228px;
     border:1px solid #ccc;
     background:#f6f6f6;
     height:103px;
@@ -129,11 +129,11 @@
 }
 
 .freeOrderBlock{
-    width:80px;
+    width:90px;
     height:80px;
     background-position:left center;
     background-repeat:no-repeat;
-    margin-left: 10px;
+    margin-left: 20px;
     padding-left: 44px;
 }
 
@@ -186,7 +186,7 @@
 /*==========================流行风尚=========================*/
 
 .population{
-    width:936px;
+    width:980px;
     height:518px;
     float:left;
     margin-top:50px;
@@ -214,16 +214,16 @@
 }
 
 .population .leftBlock{
-    width:600px;
+    width:615px;
     height:295px;
 }
 .population .rightBlock{
-    width:326px;
+    width:352px;
     height:295px;
-    margin-left:6px;
+    margin-left:9px;
 }
 .population .fourBlock{
-    width:225px;
+    width:236px;
     height:182px;
     margin-right:9px;
     margin-top:10px;
@@ -249,7 +249,7 @@
 /*==========================热门排行=========================*/
 
 .hot100{
-    width:168px;
+    width:214px;
     height:560px;
     margin-left:36px;
     margin-top:40px;
@@ -312,12 +312,12 @@
 }
 
 .bestPicArea .highPicBlock{
-    width:275px;
+    width:297px;
     height:520px;
     margin-top:15px;
 }
 
-.bestPicArea .noRightMargin{
+.highPicBlock:nth-of-type(4n){
     margin-right:0;
 }
 
@@ -326,7 +326,7 @@
 }
 
 .bestPicArea .normalPicBlock{
-    width:275px;
+    width:297px;
     height:255px;
 }
 

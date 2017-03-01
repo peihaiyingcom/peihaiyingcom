@@ -1,0 +1,26 @@
+.formControlRightInput{
+    width:172px;
+}
+.formTable tr td{
+    white-space:nowrap;
+}
+.redCha{
+    text-indent:20px;
+    background:url(../img/redCha.png) no-repeat left 50%;
+}
+.confirmForm{
+    margin-top:20px;
+}
+.reGetCode{
+    height:28px;
+    display:inline-block;
+    vertical-align:middle;
+    width:126px;
+    color:#333;
+    border:1px solid #ccc;
+    background:#e5e5e5;
+    border-radius:3px;
+    margin-left:10px;
+    text-align:center;
+    line-height:28px;
+}

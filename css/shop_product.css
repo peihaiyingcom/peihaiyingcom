@@ -1,0 +1,231 @@
+.content832{
+    float:right;
+}
+.leftBarForShop{
+    width:162px;
+    float:left;
+}
+.goodsList{
+    width:190px;
+    float:left;
+}
+.goodsListTitle{
+    width:188px;
+    font-size:14px;
+    height:33px;
+    line-height:33px;
+    color:#333;
+    background:#f6f6f6;
+    border:1px solid #ccc;
+}
+.goodsListUl{
+    width:162px;
+}
+.goodsListUl .goodsListLi{
+    width:188px;
+    height:33px;
+    line-height:33px;
+    border:1px solid #ccc;
+    border-top:none;
+    text-indent:16px;
+    background:url(../img/dian.jpg) 5% 50% no-repeat;
+}
+.goodsListUl .goodsListLi a{
+    color:#333;
+}
+.hotSales{
+    width:188px;
+    margin-top:16px;
+    height:auto;
+    margin-bottom:16px;
+}
+.hotSalesBlock{
+    width:136px;
+    height:auto;
+    margin-bottom:10px;
+}
+.hotSalesBlock img{
+    width:136px;
+    height:136px;
+}
+.hotSalesText{
+    background:none;
+    position:static;
+}
+.hotSalesPrice{
+    color:#a80011;
+}
+.shopSaysText{
+    padding:10px;
+    border:1px solid #ccc;
+    border-top:none;
+    margin-bottom:15px;
+}
+.shopHotSales{
+    float:left;
+}
+.searchBar{
+    width:982px;
+    height:34px;
+    border:1px solid #ccc;
+    float:left;
+    background:#f6f6f6;
+    font-size:12px;
+    font-weight:bold;
+    color:#111;
+    line-height:32px;
+    text-indent:12px;
+    position:relative;
+}
+.content832{
+    width:984px;
+    margin-top:0;
+}
+.searchBar .searchInput{
+    display:inline-block;
+    vertical-align:middle;
+    width:138px;
+    height:18px;
+    border:1px solid #ccc;
+    margin-left:5px;
+    border-radius:5px;
+    background:url(../img/mirror.png) 95% center no-repeat #fff;
+    text-indent:10px;
+    line-height:18px;
+    font-size:12px;
+}
+.mirrorLocationClick{
+    position:absolute;
+    width:16px;
+    height:16px;
+    cursor:pointer;
+    left:193px;
+    top:10px;
+}
+.sortBar{
+    width:982px;
+    height:34px;
+    border:1px solid #ccc;
+    float:left;
+    background:#f6f6f6;
+    font-size:12px;
+    color:#666;
+    line-height:32px;
+}
+.sortBar .buttonsWrap{
+    width:100%;
+    height:22px;
+    line-height:22px;
+    display:inline-block;
+}
+.sortBar .buttonsWrap .sortButtons{
+    margin-left:10px;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:5px;
+    font-family:'微软雅黑';
+}
+.sortArrowDown{
+    display:inline-block;
+    width:7px;
+    height:8px;
+    background:url(../img/downJT1.jpg) no-repeat center center;
+}
+.active .sortArrowDown{
+    background:url(../img/downJT2.jpg) no-repeat center center;
+}
+.sortBar .buttonsWrap .sortButtons .sortButton{
+    float:left;
+    height:20px;
+    width:40px;
+    line-height:20px;
+    text-align:center;
+    color:#333;
+    border:1px solid #ddd;
+    background:#fff;
+    cursor:pointer;
+}
+.sortBar .buttonsWrap .sortButtons .sortButton.active{
+    color:#fff;
+    background:#a80011;
+    border:1px solid #a80011;
+}
+.sortBar .range{
+    display:inline-block;
+    vertical-align:middle;
+    border:1px solid #ccc;
+    height:18px;
+    line-height:18px;
+    width:52px;
+    text-align:center;
+}
+.sortBar .confirm{
+    display:inline-block;
+    vertical-align:middle;
+    border:1px solid #ccc;
+    height:18px;
+    line-height:18px;
+    width:52px;
+    text-align:center;
+    cursor:pointer;
+    background:#fff;
+    margin-left:5px;
+}
+.sortBar .pageRightTop{
+    float:right;
+    display:inline-block;
+    margin-right:5px;
+}
+.sortBar .pageRightTop span{
+    width:16px;
+    height:16px;
+    border:1px solid #ccc;
+    text-align:center;
+    line-height:16px;
+    display:inline-block;
+    cursor:pointer;
+    margin-left:5px;
+}
+.sortBar .pageRightTop .pageNumber{
+    border:none;
+    width:auto;
+    height:auto;
+    font-size:12px;
+    font-weight:normal;
+}
+.shopHotSaleBlock{
+    margin-right:42px;
+    margin-bottom:20px;
+}
+.pageDivider{
+    width:100%;
+    float:left;
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -11,12 +11,12 @@
 }
 /*==========================tab切换图区=========================*/
 .picTabArea{
-    width:830px;
+    width:890px;
     float:left;
     padding-bottom:15px;
 }
 .picTabPicWrap{
-    width:820px;
+    width:862px;
     height:530px;
     position:relative;
 }
@@ -44,7 +44,7 @@
 
 .selectPicArea{
     text-align:center;
-    width:815px;
+    width:854px;
     height:116px;
     line-height:116px;
     position:relative;
@@ -84,8 +84,8 @@
     width:9000px;
 }
 .tabPicLi{
-    width:53px;
-    height:53px;
+    width:56px;
+    height:56px;
     display:inline-block;
     vertical-align:middle;
     cursor:pointer;
@@ -114,7 +114,7 @@
 }
 /*==========================详情介绍=========================*/
 .detailIntroduce{
-    width:830px;
+    width:860px;
     height:150px;
     line-height:150px;
     float:left;
@@ -143,7 +143,7 @@
     padding-right:5px;
     height:73px;
     vertical-align:middle;
-    width:690px;
+    width:745px;
 }
 /*==========================我要定制-联系模块=========================*/
 .rightBlock{
@@ -152,11 +152,11 @@
     padding-top:5px;
 }
 #content22L{
-    margin-right:10px;
+    margin-right:25px;
 }
 /*==========================热门标签=========================*/
 .hotTag{
-    width:298px;
+    width:314px;
     margin-top:30px;
 }
 .hotTagTitle{

@@ -1,6 +1,6 @@
 //nav处的切换以及导航栏设置
 $(function(){
-    var box = ['首页','产品分类','装修效果图','周边服务','明星专区','品牌特卖','门窗展会','新闻资讯'],str='',urls=['index.html','assort.html','effectPic.html','nearbyService.html','star.html','brand.html','index.html','news.html'];
+    var box = ['首页','产品分类','装修效果图','周边服务','明星专区','品牌特卖','门窗展会','新闻资讯'],str='',urls=['index.html','assort.html','effectPic.html','nearbyService.html','star.html','brand.html','expo.html','news.html'];
     for(var i=0;i<box.length;i++){
         str+='<li><a href='+urls[i]+'><span>'+box[i]+'</span></a></li>'
     }

@@ -1,3 +1,7 @@
+#content21 li:nth-child(7){color:white;background:#b70b07;}
+#content21 li:nth-child(7) a{color:white;}
+#content21 li:nth-child(8){color:black;background:none;}
+#content21 li:nth-child(8) a{color:black;}
 .content421Bann{height:193px;}
 .margin_left{margin-left:46px;}
 
@@ -9,4 +13,5 @@
 .news_listTime{margin-top:10px;}
 #content412 li{position:relative;}
 .expo_btn{position:absolute;right:0;bottom:50px;text-align:center;width:80px;line-height:22px;color:white;cursor: pointer;background:#a80011;}
+.expo_btn a{color:white;}
 

@@ -2,7 +2,7 @@
 #content21 li:nth-child(3) a{color:white;}
 /*==========================类别导航=========================*/
 .itemNav{
-    width:1138px;
+    width:1228px;
     border:1px solid #ccc;
     line-height:40px;
     overflow:hidden;
@@ -33,7 +33,7 @@
 
 .itemNavItemUl{
     float:left;
-    width:1008px;
+    width:1098px;
     padding-left:130px;
 }
 
@@ -111,7 +111,7 @@
 }
 
 .bestPicBlock .showBar .showBarBtn{
-    width:106px;
+    width:96px;
     background:#c81323;
     color:#fff;
     height:30px;
@@ -121,13 +121,13 @@
 }
 
 .bestPicArea .highPicBlock{
-    width:275px;
+    width:297px;
     height:520px;
     margin-top:15px;
     margin-bottom:15px;
 }
 
-.bestPicArea .noRightMargin{
+.highPicBlock:nth-of-type(4n){
     margin-right:0;
 }
 
@@ -136,9 +136,12 @@
 }
 
 .bestPicArea .normalPicBlock{
-    width:275px;
+    width:297px;
     height:255px;
     float:left;
+}
+.normalPicBlock:nth-of-type(4n){
+    margin-right:0;
 }
 
 .bestPicArea .normalPicBlock img{
