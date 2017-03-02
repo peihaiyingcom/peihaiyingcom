@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/myself.css">
     <link rel="stylesheet" href="css/showPretty.css">
     <link rel="stylesheet" href="css/leaveMessage.css">
+    <link rel="stylesheet" href="css/ratesManage.css">
 </head>
 
 <body>
@@ -63,7 +64,7 @@
                         <li><a href="">我的订单</a></li>
                         <li><a href="">我的购物车</a></li>
                         <li><a href="">我的收藏</a></li>
-                        <li><a href="">我的评价</a></li>
+                        <li><a href="" class="red">我的评价</a></li>
                         <li><a href="">我的积分</a></li>
                         <li><a href="">我的优惠</a></li>
                         <li><a href="">预约安装</a></li>
@@ -75,7 +76,7 @@
                         <li><a href="">退款管理</a></li>
                         <li><a href="">售后管理</a></li>
                         <li><a href="">投诉管理</a></li>
-                        <li><a href="" class="red">留言管理</a></li>
+                        <li><a href="">留言管理</a></li>
                     </ul>
                 </div>
                 <div>
@@ -89,54 +90,72 @@
             <div id='myself_2R'>
                 <div class="myself_2R2">
                     <div class="myself_2R21 myself_2R21New">
-                        <h3 class="left">留言管理</h3>
-                        <a href="javascript:;" name="manageMsgTab" class="red tabSpan">我的留言</a>
-                        <span class="tabSpan">|</span>
-                        <a href="javascript:;" name="sendMessage" class="tabSpan">发布留言</a>
-                        <span class="right next_Btn">下一页</span>
-                        <span class="right pre_Btn ccc">上一页</span>
+                        <a href="javascript:;" name="sendMessage" class="red tabSpan">来自卖家的评价</a>
+                        <span class="shu">|</span>
+                        <a href="javascript:;" name="manageMsgTab" class="tabSpan">给他人的评价</a>
                     </div>
-                    <table id="manageMsgTab">
+                    <table style="display:none;" id="manageMsgTab">
                         <thead>
                         <tr>
-                            <td>主题</td>
-                            <td>时间</td>
-                            <td>操作</td>
+                            <td>评价内容</td>
+                            <td>被评价人</td>
+                            <td>宝贝信息</td>
                         </tr>
                         </thead>
                         <tbody class="manageMsgTbd">
                         <tr class="manageMsgTr">
                             <td>
-                                <div class="checkboxDiv">
-                                    <input type="checkbox" class="msgCheckBox">
-                                </div>
-                                <a href="">
-                                    <div class="msgText">
-                                        <p class="msgTextP1">感谢众湃网</p>
-                                        <p class="msgTextP2">在众湃网购买门窗后还可以免费预约安装，方便有保障，家里人东欧很开心，以后还要来这里。</p>
-                                    </div>
-                                </a>
+                                <p class="ratesTextP">
+                                    非常感谢客服人员帮我顺丰快递。这是第三把锁了，就是信赖金点。不过还好，今天的小插曲让我也想提醒一下其他消费者和金点都注意除了锁,今天的小插曲让我也想提醒一下其他消费者和金点都注意除了锁
+                                </p>
+                                <ul class="ratesPicsUl">
+                                    <li><a href=""><img src="img/lookPic123.jpg"></a></li>
+                                    <li><a href=""><img src="img/lookPic123.jpg"></a></li>
+                                    <li><a href=""><img src="img/lookPic123.jpg"></a></li>
+                                    <li><a href=""><img src="img/lookPic123.jpg"></a></li>
+                                </ul>
+                                <p class="ratesTime">[2016-10-23  22:21:30]</p>
                             </td>
                             <td>
-                                2017-02-03
+                                卖家：<a style="color:#5a7fd3;" href="">多保旗舰店</a>
                             </td>
                             <td>
-                                <div class="deleteMsgWrap">
-                                    <a href="" class="deleteMsg"></a>
-                                </div>
+                                <p class="goodsInfoText">
+                                    <a class="goodsInfoTextA" href="">玫瑰精油手工皂补水保湿美白去黑头淡化黑色素卸妆洁哈哈哈哈哈</a>
+                                    <span class="goodsInfoPrice"><span class="red">128.0</span>元</span>
+                                </p>
                             </td>
                         </tr>
                         </tbody>
                     </table>
-                    <div style="display: none;"  id="sendMessage">
-                        <div class="titleTitle">标题：</div>
-                        <input placeholder="在此输入标题" class="titleTitleInput" type="text">
-                        <div class="titleTitle">内容：</div>
-                        <textarea placeholder="在此输入内容,限制500字" class="titleTitleInput titleTitleTextarea"></textarea>
-                        <a href="" id="submitYourMessage">
-                            立即发布
-                        </a>
-                    </div>
+                    <table id="sendMessage">
+                        <thead>
+                        <tr>
+                            <td>评价内容</td>
+                            <td>评价人</td>
+                            <td>宝贝信息</td>
+                        </tr>
+                        </thead>
+                        <tbody class="manageMsgTbd shopReTbd">
+                        <tr class="manageMsgTr shopRe">
+                            <td>
+                                <p class="ratesTextP">
+                                    尊敬的客户您好，非常感谢您对金点原子的支持，您的支持是我们进步的动力。金点原子有您的支持倍感荣幸，我们一定会做到最好，我们一定会做到最好，我们一定会做到最好，我们一定会做到最好，我们一定会做到最好，我们一定会做到最好.
+                                </p>
+                                <p class="ratesTime">[2016-10-23  22:21:30]</p>
+                            </td>
+                            <td>
+                                卖家：<a style="color:#5a7fd3;" href="">多保旗舰店</a>
+                            </td>
+                            <td>
+                                <p class="goodsInfoText">
+                                    <a class="goodsInfoTextA" href="">玫瑰精油手工皂补水保湿美白去黑头淡化黑色素卸妆洁哈哈哈哈哈</a>
+                                    <span class="goodsInfoPrice"><span class="red">128.0</span>元</span>
+                                </p>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
 
             </div>
@@ -252,6 +271,7 @@
     </div>
     <script src="js/jquery-1.11.1.min.js"></script>
     <script>
+        //tab切换
         $('.tabSpan').click(function () {
             $('.tabSpan').removeClass('red');
             $(this).addClass('red');
@@ -259,6 +279,7 @@
             $('#'+$(this).prop('name')).show();
         });
 
+        //循环复制给他人的评价
         var tbd = document.getElementsByClassName('manageMsgTbd')[0];
         var tr = document.getElementsByClassName('manageMsgTr')[0];
         for(var i=0;i<7;i++){
@@ -266,6 +287,21 @@
             tbd.appendChild(trC);
         }
 
+        //循环复制他人给我的评价
+        var tbd1 = document.getElementsByClassName('shopReTbd')[0];
+        var tr1 = document.getElementsByClassName('shopRe')[0];
+        for(var i=0;i<7;i++){
+            var trC = tr1.cloneNode(true);
+            tbd1.appendChild(trC);
+        }
+
+        //裁剪评价商品一栏的字数
+        var length = $('.goodsInfoTextA').length;
+        for(var j=0;j<length;j++){
+            if($('.goodsInfoTextA').eq(j).text().length>25){
+                $('.goodsInfoTextA').eq(j).text($('.goodsInfoTextA').eq(j).text().slice(0,25)+'...')
+            }
+        }
 
     </script>
 </body>

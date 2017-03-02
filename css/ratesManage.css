@@ -1,0 +1,159 @@
+.tabSpan{
+    font-size:16px;
+    width:140px;
+}
+.shu{
+    font-size:16px;
+    display:inline-block;
+    vertical-align:sub;
+    text-align:center;
+}
+.myself_2R21New{
+    padding:12px 0 8px 0;
+}
+#manageMsgTab{
+    text-align:center;
+    margin-bottom:20px;
+}
+#manageMsgTab thead tr td:nth-child(1){
+    padding-left:0px;
+    width:420px;
+}
+#manageMsgTab thead tr td:nth-child(2){
+    width:357px;
+}
+#manageMsgTab .ratesTextP{
+    width:420px;
+    text-align:left;
+    margin-top:24px;
+}
+#manageMsgTab tbody tr td:nth-child(1){
+    padding-left:10px;
+}
+#manageMsgTab .ratesPicsUl{
+    width:420px;
+    margin:10px 0;
+    overflow:hidden;
+}
+#manageMsgTab .ratesPicsUl li{
+    float:left;
+    width:50px;
+    height:50px;
+    border:1px solid #ccc;
+    text-align:center;
+    margin-right:8px;
+}
+#manageMsgTab .ratesPicsUl li img{
+    height:48px;
+    margin-top:1px;
+}
+#manageMsgTab .ratesTime{
+    font-size:12px;
+    color:#999;
+    text-align:left;
+    margin-bottom:16px;
+}
+#manageMsgTab .goodsInfoText{
+    width:130px;
+    margin:0 auto;
+}
+
+.goodsInfoTextA{
+    color:#5a7fd3;
+    float:left;
+    text-align:left;
+}
+.goodsInfoPrice{
+    float:left;
+}
+
+#sendMessage{
+    text-align:center;
+    margin-bottom:20px;
+    margin-top:18px;
+    height:auto;
+}
+#sendMessage thead tr td:nth-child(1){
+    padding-left:0px;
+    width:420px;
+}
+#sendMessage thead tr td:nth-child(2){
+    width:357px;
+}
+#sendMessage .ratesTextP{
+    width:420px;
+    text-align:left;
+    margin-top:24px;
+    margin-bottom:6px;
+}
+#sendMessage tbody tr td:nth-child(1){
+    padding-left:10px;
+}
+#sendMessage .ratesPicsUl{
+    width:420px;
+    margin:10px 0;
+    overflow:hidden;
+}
+#sendMessage .ratesPicsUl li{
+    float:left;
+    width:50px;
+    height:50px;
+    border:1px solid #ccc;
+    text-align:center;
+    margin-right:8px;
+}
+#sendMessage .ratesPicsUl li img{
+    height:48px;
+    margin-top:1px;
+}
+#sendMessage .ratesTime{
+    font-size:12px;
+    color:#999;
+    text-align:left;
+    margin-bottom:16px;
+}
+#sendMessage .goodsInfoText{
+    width:130px;
+    margin:0 auto;
+}
+#sendMessage thead{
+    background:#f1f1f1;
+    border:1px solid #ccc;
+    height:31px;
+    line-height:31px;
+}
+#sendMessage tbody tr {
+    border-bottom: 1px dashed #ccc;
+    height: 84px;
+}
+#sendMessage tbody tr:last-child{
+    border-bottom:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
