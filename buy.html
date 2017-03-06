@@ -1079,7 +1079,10 @@
     $('.closeModal').click(function () {
         $('.freeOrderModalWrap').hide();
     });
-
+    //进入店铺
+    $('.getInShopBtns input').off('click').click(function(){
+        window.location.href = 'shop.html'
+    })
 
 </script>
 

@@ -51,7 +51,7 @@
                                 <input type="checkbox">
                                 <span>自动登录</span>
                             </div>
-                            <div class='register_4'>登录</div>
+                            <div class='register_4 dlzIn'>登录</div>
                             <div class='register_5'>
                                 <span class='left'>注册</span>
                                 <a class="right" href="">忘记密码</a>
@@ -275,5 +275,13 @@
     $('#tab_dl .right').off('click').click(function(){
         $('#zc').addClass('hidden').siblings('#dl').removeClass('hidden');
     })
+    
+    //临时登录到主页
+    $('.dlzIn').off('click').click(function(){
+        localStorage.setItem("zh", "小熊猫1234");
+        window.location.href = 'index.html';
+    })
+    
+    
 </script>
 </html>
