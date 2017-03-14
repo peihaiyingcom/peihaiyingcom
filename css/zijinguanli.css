@@ -1,0 +1,25 @@
+#zijinGl{width:998px;min-height:100px;border:1px solid #ccc;}
+.zijinGl1{line-height:38px;height:38px;box-sizing:border-box;border-bottom:1px solid #ccc;background:#f1f1f1;padding-left:16px;}
+.zijinGl1 .left{margin-right:38px;}
+.zijinGl1 .right{width:126px;background:url(../img/zijinguanli1.jpg) no-repeat 10px 12px;text-indent:30px;cursor:pointer;color:#3d92c2;}
+.zijinGl2{padding:30px 0;}
+
+
+.zijinGl2>div{overflow:hidden;padding-left:20px;}
+
+.zijinGl2>div>.left{width:80px;}
+.zijinGl2>div>.right{width:898px;}
+.zijinGl2>div>.right li{overflow:hidden;line-height:44px;border:1px solid #ccc;width:740px;margin-bottom:10px;}
+.lis_1,.lis_2{overflow:hidden;width:50%;}
+.lis_1>div{float:left;margin-left:10px;}
+
+.bbby{line-height:44px;}
+.biaoqian1{text-indent:30px;background:url(../img/zijinguanli3.jpg) no-repeat 5px 15px;}
+.biaoqian{height:14px;background:#73a6cb;line-height:14px;margin-top:14px;color:#fff;margin-left:30px;}
+.ChaoS{width:140px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.priceNum{overflow:hidden;line-height:44px;}
+.priceNum input{display: inline-block;width:150px;height:30px;text-indent:5px;margin-top:5px;margin-right:10px;}
+
+.ciriDz{line-height:44px;}
+
+.zijinGl2>.nextBtn{width:105px;line-height:30px;background:#a80011;margin:30px auto auto 100px;text-align:center;color:#fff;padding:0;cursor:pointer;}

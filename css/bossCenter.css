@@ -1,0 +1,205 @@
+#myself_1 .myself_11 h2{
+    background-image:url(../img/zpBosslogo.jpg);
+    background-size:50px 23px;
+}
+#myself_2 #myself_2L .myself_lBt{
+    background:url(../img/dashidang.jpg) no-repeat 5% center;
+    margin-top:20px;
+}
+#myself_2L{
+    border:1px solid #ccc;
+    width:178px;
+    padding:0;
+    border-bottom:none;
+}
+.bbm1px{
+    border-bottom:1px solid #ccc;
+}
+.padLft10px{
+    padding-left:10px;
+}
+.myself_chos{
+    padding-bottom:20px;
+}
+.myself_11 ul{
+    width:785px;
+}
+.breadNav{
+    width:982px;
+    border:1px dashed #ccc;
+    background:#fafafa;
+    height:31px;
+    line-height:31px;
+    padding-left:16px;
+    margin-bottom:35px;
+}
+.searchArea{
+    padding-left:20px;
+    margin-bottom:48px;
+}
+.searchAreaInput{
+    width:178px;
+    height:28px;
+    border:1px solid #ccc;
+    margin:0 58px 0 10px;
+    text-indent:10px;
+}
+.searchAreaP{
+    margin-bottom:18px;
+}
+.searchAreaInputS{
+    width:118px;
+    margin-right:10px;
+}
+.searchBtn{
+    width:80px;
+    height:30px;
+    background:#a80011;
+    text-align:center;
+    line-height:30px;
+    color:#fff;
+    border:none;
+    margin-left:23px;
+    cursor:pointer;
+}
+#toReset{
+    background:#dadada;
+    color:#333;
+}
+.selectBox{
+    vertical-align:middle;
+}
+#productTable{
+    width:998px;
+    border:1px solid #ccc;
+    margin-bottom:38px;
+}
+#productTable td,
+#productTable th{
+    text-align:center;
+}
+#productTable thead{
+    height:44px;
+    line-height:44px;
+    background:#f1f1f1;
+    border-bottom:1px solid #ccc;
+}
+#productTable tr th:nth-child(1){
+    width:60px;
+}
+#productTable tr th:nth-child(2){
+    width:200px;
+}
+#productTable tr th:nth-child(3){
+    width:160px;
+}
+#productTable tr th:nth-child(4){
+      width:140px;
+  }
+#productTable tr th:nth-child(5){
+    width:160px;
+}
+#productTable tr th:nth-child(6){
+    width:150px;
+}
+#productTable tbody tr{
+    height:102px;
+    border-bottom:1px solid #ccc;
+    line-height:102px;
+}
+.productImg{
+    width:70px;
+    height:70px;
+    vertical-align:middle;
+}
+.doSthDiv{
+    display:inline-block;
+    height:80px;
+    line-height:40px;
+    vertical-align:middle;
+}
+.doSthDiv a{
+    color:#4194c4;
+}
+
+.pagination a{
+    border:1px solid #ccc;
+    padding:3px 10px;
+    margin-right:5px;
+    display:inline-block;
+    color:#333;
+}
+
+.productTable{
+    width:998px;
+    border:1px solid #ccc;
+    margin-bottom:38px;
+}
+.productTable td,
+.productTable th{
+    text-align:center;
+}
+.productTable thead{
+    height:44px;
+    line-height:44px;
+    background:#f1f1f1;
+    border-bottom:1px solid #ccc;
+}
+.productTable tr th:nth-child(1){
+    width:60px;
+}
+.productTable tr th:nth-child(2){
+    width:200px;
+}
+.productTable tr th:nth-child(3){
+    width:160px;
+}
+.productTable tr th:nth-child(4){
+    width:140px;
+}
+.productTable tr th:nth-child(5){
+    width:160px;
+}
+.productTable tr th:nth-child(6){
+    width:150px;
+}
+.productTable tbody tr{
+    height:102px;
+    border-bottom:1px solid #ccc;
+    line-height:102px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

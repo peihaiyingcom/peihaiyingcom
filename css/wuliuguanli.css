@@ -1,0 +1,28 @@
+.doSthBtn{
+    width:auto;
+    padding:0 5px;
+}
+.productImg{
+    width:82px;
+    height:54px;
+    border:1px solid #ccc;
+    margin:0 30px 0 60px;
+}
+.doSthDiv a{
+    color:#333;
+}
+.doSthDiv{
+    height:60px;
+}
+.ktfw{
+    display:inline-block;
+    width:90px;
+    height:30px;
+    text-align:center;
+    line-height:30px;
+    color:#fff;
+    background:#0099ff;
+}
+.qxyktfw{
+    color:#0099ff;
+}

@@ -1,0 +1,6 @@
+#content{width:100%;min-width:1230px;height:660px;background:url(../img/index115.jpg) no-repeat;position:relative}
+
+#calculateModal{position:absolute;top:130px;background:none;}
+#calculateContent{position:relative;}
+#zhi_bt{font-size:20px;color:#000;left:86px;top:54px;position:absolute;}
+.userCalculatedNum{margin-top:64px;}

@@ -1,0 +1,47 @@
+.choosePJ{overflow:hidden;}
+.blu{color:#2d99c8;margin-left:10px;cursor:pointer;}
+.blu1{color:#2d99c8;}
+.choosePJ1{width:285px;padding-left:25px;}
+.choosePJ1 input{width:178px;line-height:26px;display:inline-block;height:26px;}
+.choosePJ2 select{width:160px;line-height:30px;display:inline-block;height:30px;color:#5c5c5c;}
+
+.choosePJ3{margin-left:60px;width:80px;line-height:30px;background:#a70011;text-align:center;color:#fff;cursor:pointer;}
+
+.tuikuan{margin:50px auto;}
+
+.tuikuan23{width:350px;height:18px;margin:30px 0 0 auto;line-height:18px }
+.tuikuan23 span,.tuikuan23 div{float:left;}
+.tuikuan23 ul{float:left;overflow:hidden; }
+.tuikuan23 ul li{width:18px;line-height:18px;text-align:center;float:left;border:1px solid #ccc;margin:0 5px;cursor:pointer }
+
+
+.tuikuan11{width:120px;padding-left:20px;box-sizing:border-box;}
+.tuikuan12{width:190px;}
+.tuikuan13{width:120px;}
+.tuikuan14{width:130px;}
+.tuikuan15{width:130px;}
+.tuikuan16{width:128px;}
+.tuikuan17{width:130px;}
+.tuikuan18{width:50px;}
+.tuikuan1{overflow:hidden;background:#f1f1f1;border:1px solid #ccc;line-height:45px;}
+.tuikuan22 li{overflow:hidden;padding:25px 0;border-bottom:1px solid #ccc;}
+
+.tuikuan22 .tuikuan18{cursor: pointer;}
+
+.huifuZZ12 p{overflow:hidden;}
+.huifuZZ12 .left{width:135px;text-align:right;}
+.huifuZZ12 .right{width:230px;letter-spacing:3px;}
+.huifuZZ12 p{margin:10px 0;}
+#huifuZZ{width:100%;height:100%;position:fixed;left:0;top:0;background:rgba(0,0,0,0.3);}
+
+.huifuZZ1{width:390px;height:230px;position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;background:#fff;border-radius:10px;overflow:hidden; }
+
+.huifuZZ11{line-height:60px;border-bottom:1px solid #ccc;height:60px;padding-left:17px;font-weight:800;text-align:center;position:relative}
+
+.huifuZZ11 .left{width:100%;text-align:center;}
+.huifuZZ11 .right{width:18px;height:18px;background:url(../img/zxhf.jpg) no-repeat;cursor:pointer;position:absolute;top:20px;right:10px;}
+
+
+.huifuZZ12{width:370px;height:200px;margin:20px auto;}
+.huifuZZ12 .left{width:;}
+

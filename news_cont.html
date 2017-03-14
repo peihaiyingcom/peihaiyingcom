@@ -17,33 +17,53 @@
 </head>
 
 <body>
-    <div id='active'></div>
-    <div id='head'>
-        <div id="headContent">
-            <div id='head1' class='left'>
-                <span>北京</span>
-                <span><a href="" class='red'>[切换]</a></span>
-            </div>
-            <div id='head2' class='right'>
-                <ul>
-                    <li>
-                        <a class='red' href="">登录</a>
-                        <a class='red marL' href="">注册</a>
-                    </li>
-                    <li><a href="">消息</a></li>
-                    <li class='padR'><a href="">我的众湃</a></li>
-                    <li><a href="">我要加盟</a></li>
-                    <li><a href="">商户中心</a></li>
-                    <li><a href="">手机众湃</a></li>
-                    <li>400-0318-198</li>
-                </ul>
-            </div>
+<div id='active'>
+    <a href=""><img src="img/active.jpg" alt=""></a>
+</div>
+<div id='head'>
+    <div id="headContent">
+        <div id='head1' class='left'>
+            <span>北京</span>
+            <span><a href="" class='red'>[切换]</a></span>
+        </div>
+        <div id='head2' class='right'>
+            <ul class='head21'>
+                <li>
+                    <a class='red' href="register.html">登录</a>
+                    <a class='red marL' href="register.html">注册</a>
+                    <div class='ind_bor'></div>
+                </li>
+                <li><a href="">消息</a>
+                <div class='ind_bor'></div>
+                </li>
+                <li class='padR la_down'>
+                    <span>我的众湃</span>
+                    <ul class='shopCenter hidden'>
+                        <li><a href="">我的订单</a></li>
+                        <li><a href="">我的收藏</a></li>
+                    </ul>
+                    <div class='ind_bor'></div>
+                </li>
+                <li><a href="">我要加盟</a><div class='ind_bor'></div></li>
+                <li class='la_down'>
+                    <span>商户中心</span>
+                    <ul class='shopCenter hidden'>
+                        <li><a href="">免费开店</a></li>
+                        <li><a href="">已卖出商品</a></li>
+                        <li><a href="">出售中商品</a></li>
+                    </ul>
+                    <div class='ind_bor'></div>
+                </li>
+                <li><a href="">手机众湃</a><div class='ind_bor'></div></li>
+                <li><span>400-0318-198</span></li>
+            </ul>
         </div>
     </div>
+</div>
     <div id='nav'>
         <div id='content1'>
             <div id='content1L'>
-                <h1><img src="img/logo.jpg" alt=""></h1>
+                <h1><a href="index.html"><img src="img/logo.jpg" alt=""></a></h1>
                 <div class='search'>
                     <div class='search1'>
                         <select name="" id="">
@@ -545,40 +565,92 @@
                 <div id='content22L'>
                     <p id='content22L1'><span class='red'>我要预约</span><span>我要定制 </span></p>
                     <div class='xian'></div>
-                    <div id='content22L2'>
-                        <input type="text" placeholder="您的称呼">
+                    <div class='inde_yy'>
+                        <div id='content22L2'>
+                            <input type="text" placeholder="您的称呼">
+                        </div>
+                        <div id='content22L3'>
+                            <select name="" id="" class='left'>
+                                <option value="">山西省</option>
+                                <option value="">山西省</option>
+                                <option value="">山西省</option>
+                                <option value="">山西省</option>
+                            </select>
+                            <select name="" id="" class='right'>
+                                <option value="">太原市</option>
+                                <option value="">临汾市</option>
+                                <option value="">运城市</option>
+                                <option value="">吕梁市</option>
+                            </select>
+                        </div>
+                        <div id='content22L4'>
+                            <input type="text" placeholder="请输入详细地址">
+                        </div>
+                        <div id='content22L5'>
+                            <input type="text" placeholder="填写手机号码，方便联系">
+                        </div>
+                        <div id='content22L6' class='ljyy'>立即预约</div>
+                        <div id='content22L7'>
+                            <p>已有
+                                <span>1</span>
+                                <span>1</span>
+                                <span>1</span>
+                                <span>1</span>
+                                <span>1</span>
+                                <span>1</span> 位
+                            </p>
+                            <p>客服享受众湃商城免费服务</p>
+                            </div>
                     </div>
-                    <div id='content22L3'>
-                        <select name="" id="" class='left'>
-                            <option value="">山西省</option>
-                            <option value="">山西省</option>
-                            <option value="">山西省</option>
-                            <option value="">山西省</option>
-                        </select>
-                        <select name="" id="" class='right'>
-                            <option value="">太原市</option>
-                            <option value="">临汾市</option>
-                            <option value="">运城市</option>
-                            <option value="">吕梁市</option>
-                        </select>
-                    </div>
-                    <div id='content22L4'>
-                        <input type="text" placeholder="请输入详细地址">
-                    </div>
-                    <div id='content22L5'>
-                        <input type="text" placeholder="填写手机号码，方便联系">
-                    </div>
-                    <div id='content22L6'>立即预约</div>
-                    <div id='content22L7'>
-                        <p>已有
-                            <span>1</span>
-                            <span>1</span>
-                            <span>1</span>
-                            <span>1</span>
-                            <span>1</span>
-                            <span>1</span> 位
-                        </p>
-                        <p>客服享受众湃商城免费服务</p>
+                    <div class='inde_yy hidden'>
+                        
+                        <div id='content22L3'>
+                            <select name="" id="" class='left'>
+                                <option value="">山西省</option>
+                                <option value="">山西省</option>
+                                <option value="">山西省</option>
+                                <option value="">山西省</option>
+                            </select>
+                            <select name="" id="" class='right'>
+                                <option value="">太原市</option>
+                                <option value="">临汾市</option>
+                                <option value="">运城市</option>
+                                <option value="">吕梁市</option>
+                            </select>
+                        </div>
+                        <div id='content22L2'>
+                            <input type="text" placeholder="请输入您的门窗面积">
+                            <div>m<sup>2</sup></div>
+                        </div>
+                        <div id='content22L4' style='border:none;'>
+                            <select name="" id="" class='left'>
+                                <option value="">3门</option>
+                                <option value="">4门</option>
+                                <option value="">5门</option>
+                                <option value="">6门</option>
+                            </select>
+                            <select name="" id="" class='right'>
+                                <option value="">10窗</option>
+                                <option value="">12窗</option>
+                                <option value="">13窗</option>
+                                <option value="">15窗</option>
+                            </select>
+                        </div>
+                        <div id='content22L5'>
+                            <input type="text" placeholder="填写手机号码，方便联系">
+                        </div>
+                        <div id='content22L6' class='ljdz'>立即定制</div>
+                        <div id='content22L7'>
+                            <p>已有
+                                <span>1</span>
+                                <span>1</span>
+                                <span>1</span>
+                                <span>1</span>
+                                <span>1</span>
+                                <span>1</span> 位
+                            </p>
+                            <p>客服享受众湃商城免费服务</p>
+                            </div>
                     </div>
                 </div>
                 <div id='content421'>
@@ -622,25 +694,25 @@
         <div id='footer1'>
             <ul>
                 <li>
-                    <p>网购加体验馆</p>
+                    <p>网购+体验馆</p>
                 </li>
                 <li>
-                    <p>网购加体验馆</p>
+                    <p>100%正品</p>
                 </li>
                 <li>
-                    <p>网购加体验馆</p>
+                    <p>双重质检</p>
                 </li>
                 <li>
-                    <p>网购加体验馆</p>
+                    <p>全球化采购</p>
                 </li>
                 <li>
-                    <p>网购加体验馆</p>
+                    <p>无理由退货</p>
                 </li>
                 <li>
-                    <p>网购加体验馆</p>
+                    <p>贵就赔</p>
                 </li>
                 <li>
-                    <p>网购加体验馆</p>
+                    <p>万千口碑</p>
                 </li>
             </ul>
         </div>
@@ -726,6 +798,45 @@
             </div>
         </div>
     </div>
+    <div id='index_yySuc' class='hidden'>
+        <div>
+            <div class='index_yySuc1'>
+                <h3>暖暖的家，众湃如何帮你实现?</h3>
+                <img src="img/index111.jpg" alt="">
+                <div class='index_yySuc11'>
+                    <p>已累计服务<span class='red'>1400万</span>业主</p>
+                    <p>服务已覆盖<span class='red'>250个</span>城市</p>
+                    <p><span class='red'>95万</span>入驻设计师、<span class='red'>7万</span>入驻装修公司</p>
+                </div>
+            </div>
+            <div class='index_yySuc2'>
+                <h3>门窗装修预估价<span class='red'>4.0</span>万元</h3>
+                <div class='index_yySuc21'>
+                    <p>材料费：<span class='inde_pri'>18000</span>元</p>
+                    <p>人工费：<span class='inde_pri'>22000</span>元</p>
+                    <p>设计费：<span class='inde_pri'>0</span>元 <span class='indx_thro'>9000元</span></p>
+                    <p>质检费：<span class='inde_pri'>0</span>元 <span class='indx_thro'>3800元</span></p>
+                </div>
+                <div class='index_yySuc22'>
+                    <p class='red'>*<span>稍后装修管家将致电您，为您提供免费装修咨询服务</span></p>
+                    <p>*<span>因材料品牌及工程量不同，具体报价以量房实测为准。</span></p>
+                </div>
+            </div>
+            <span class='index_yySuc3'></span>
+        </div>
+    </div>
+    <div id='index_dzSuc' class='hidden'>
+        <div>
+            <div class='index_dzSuc1'></div>
+            <div class='index_dzSuc2'>
+                <h3>恭喜你预约成功！</h3>
+                <p class='red'>
+                    安装师傅正在赶来的路上哟~<br>请耐心等待
+                </p>
+            </div>
+            <span class='index_yySuc3'></span>
+        </div>
+    </div>
 </body>
 <script src="js/common.js"></script>
 <script src="js/lunbo/swiper-3.4.1.min.js"></script>
@@ -774,18 +885,35 @@
         })
     })
 
-    //    $(function(){
-    //        var lis = $('.enterXq');
-    //        console.log(lis);
-    //        for(var i=0;i<lis.length;i++){
-    //            if(lis[i].html().length>47){
-    //                lis[i].html(lis[i].html()+'...<span class="red">[更多]</span>')
-    //            }else{
-    //                lis[i].html(lis[i].html())
-    //            }
-    //        }
-    //        
-    //    })
+    //定制预约的切换
+    $(function(){
+        $('#content22L1 span').off('click').click(function(){
+            $(this).addClass('red').siblings('span').removeClass('red');
+            $('.inde_yy').eq($(this).index()).removeClass('hidden').siblings('.inde_yy').addClass('hidden');
+            if($(this).index()==0){
+                console.log(111)
+                $(this).css({background:'url(img/redTel.jpg) no-repeat 6px 3px'}).siblings('span').css({background:'url(img/dingZhi.jpg) no-repeat 25px 3px','background-size':'18px 18px'})
+            }else{
+                $(this).css({background:'url(img/index333.jpg) no-repeat 25px 3px'}).siblings('span').css({background:'url(img/index334.jpg) no-repeat 6px 3px','background-size':'18px 18px'})
+            }
+        })
+        
+        //定制、预约弹窗
+        $('.ljdz').off('click').click(function(){
+            $('#index_yySuc').removeClass('hidden')
+        })
+        $('.ljyy').off('click').click(function(){
+            $('#index_dzSuc').removeClass('hidden')
+        })
+        $('.index_yySuc3').off('click').click(function(){
+            $('#index_yySuc').addClass('hidden');
+            $('#index_dzSuc').addClass('hidden');
+        })
+        //搜索进入搜索商品页
+        $('.sousuo').off('click').click(function(){
+            window.location.href='searchShop.html'
+        })
+    })
 </script>
 
 </html>

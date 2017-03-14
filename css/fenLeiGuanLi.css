@@ -1,0 +1,86 @@
+.ulInLi{
+    text-align:center;
+    width:100px;
+}
+.arrowDown{
+    width:10px;
+    height:10px;
+    display:inline-block;
+    margin-left:3px;
+}
+.active .arrowDown{
+    background:url(../img/arrowDown.png) no-repeat center center;
+}
+.greyBar{
+    width:978px;
+    border:1px solid #ccc;
+    background:#f1f1f1;
+    height:36px;
+    line-height:36px;
+    padding-left:20px;
+}
+.colspan7tr{
+    background:#fff;
+    border:none;
+}
+.productTable thead{
+    border:none;
+}
+.productTable thead tr:nth-child(2){
+    border:1px solid #ccc;
+}
+.arrowRight{
+    display:inline-block;
+    width:10px;
+    height:10px;
+    background:url(../img/arrowRight.png) no-repeat;
+}
+.productTable td,.productTable th{
+    text-align:left;
+}
+.productTable td:nth-child(1){
+    padding-left:30px;
+}
+.colspan7tr td{
+    padding-left:0!important;
+}
+.fenleikuang{
+    width:170px;
+    height:28px;
+    border:1px solid #ccc;
+    display:inline-block;
+    vertical-align:middle;
+    text-indent:10px;
+}
+.addSerPic{
+    width:29px;
+    height:29px;
+    border:1px solid #ccc;
+    line-height:25px;
+    font-size:30px;
+    color:#ccc;
+    display:inline-block;
+    vertical-align:middle;
+    text-align:center;
+    cursor:pointer;
+    margin-right:10px;
+}
+
+.productTable tr th:nth-child(5){
+    width:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

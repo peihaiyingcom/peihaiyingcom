@@ -1,0 +1,64 @@
+.areaSearchBar{
+    height:100px;
+    width:100%;
+    border-bottom:2px solid #ccc;
+    line-height:100px;
+    font-size:14px;
+}
+#searchCity{
+    font-size:12px;
+    width:178px;
+    height:28px;
+    border:1px solid #ccc;
+    display:inline-block;
+    text-indent:25px;
+    background:url(../img/mirror.png) no-repeat 5% center;
+    margin-left:15px;
+}
+.hotCity{
+    width:500px;
+    height:35px;
+    line-height:35px;
+    font-size:14px;
+    display:inline-block;
+    margin-left:60px;
+}
+.hotCity li{
+    display:inline-block;
+    margin-left:20px;
+}
+.hotCity li a{
+    color:#0381bb;
+}
+.areaItemUl li .red{
+    color:#a80011;
+}
+.areaItemUl li a{
+    color:#333;
+}
+.areaUl{
+    padding-top:40px;
+    overflow:hidden;
+}
+.areaLi{
+    overflow:hidden;
+    margin-bottom:10px;
+}
+.areaUl li{
+    padding:0 5px;
+}
+.areaTitle{
+    text-align:center;
+    font-weight:bold;
+    width:132px;
+    float:left;
+}
+.areaItemUl{
+    width:710px;
+    float:left;
+}
+.areaItemUl li{
+    float:left;
+    margin-right:10px;
+    margin-bottom:15px;
+}

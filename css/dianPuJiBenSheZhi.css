@@ -1,0 +1,39 @@
+.saveAndSubmit1{
+    width:80px;
+    height:30px;
+    display:block;
+    line-height:30px;
+    color:#fff;
+    text-align:center;
+    background:#a80011;
+    margin-left:66px;
+    margin-top:15px;
+    margin-bottom:20px;
+}
+.shopIntroTextArea{
+    width:608px;
+    height:158px;
+    border:1px solid #ccc;
+    resize:none;
+    line-height:20px;
+    font-size:12px;
+    text-indent:12px;
+    outline:none;
+}
+.jibenSelect{
+    width:180px;
+    height:30px;
+    border:1px solid #ccc;
+    display:inline-block;
+    vertical-align:middle;
+    padding-left:12px;
+    margin-right:20px;
+}
+.detailAdd{
+    width:378px;
+    height:28px;
+    display:inline-block;
+    vertical-align:middle;
+    text-indent:12px;
+    border:1px solid #ccc;
+}

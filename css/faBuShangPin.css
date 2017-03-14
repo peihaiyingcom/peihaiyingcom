@@ -1,0 +1,167 @@
+.editGoodsArea{
+    overflow:hidden;
+    padding-left:20px;
+}
+.faBuShangPinP{
+    padding-bottom:24px;
+}
+.goodsItemTitle{
+    width:66px;
+    display:inline-block;
+    vertical-align:top;
+    padding-top:6px;
+}
+.goodsItemInputText{
+    width:163px;
+    height:28px;
+    border:1px solid #ccc;
+    margin-right:57px;
+    text-indent:12px;
+    font-size:12px;
+}
+.goodsItemSelect{
+    width:165px;
+    height:30px;
+    border:1px solid #ccc;
+    margin-right:57px;
+    padding-left:12px;
+    font-size:12px;
+}
+.goodsItemSelect option{
+    font-size:12px;
+}
+.faBuShangPinPDiv{
+    width:733px;
+    padding:20px 0 30px 14px;
+    border:1px solid #ccc;
+    display:inline-block;
+}
+.faBuInInSpan{
+    width:60px;
+    text-align:right;
+    padding-right:5px;
+    vertical-align:top;
+    display:inline-block;
+}
+.faBuInInUl{
+    width:660px;
+    display:inline-block;
+}
+.faBuInInLi{
+    width:110px;
+    margin-bottom:20px;
+    float:left;
+}
+.faBuInInCKB{
+    vertical-align:middle;
+}
+.upPicArea{
+    display:inline-block;
+
+}
+.choosePicToUp{
+    display:inline-block;
+    width:97px;
+    height:97px;
+    border:1px solid #ccc;
+    line-height:87px;
+    font-size:80px;
+    text-align:center;
+    color:#ccc;
+    cursor:pointer;
+    margin-right:20px;
+}
+.upPicTip{
+    color:#999;
+    font-size:12px;
+    margin:8px 0 26px 0;
+}
+.fuWenBenBianJiQi{
+    width:749px;
+    height:178px;
+    border:1px solid #ccc;
+    outline:none;
+    resize:none;
+    line-height:20px;
+    font-size:12px;
+    text-indent:12px;
+}
+.adviceWrap{
+    overflow:hidden;
+    display:inline-block;
+    margin-top:8px;
+}
+.advice{
+    float:left;
+    color:#999;
+    font-size:12px;
+}
+.adviceText{
+    float:left;
+}
+.adviceP{
+    color:#999;
+    font-size:12px;
+}
+.ifShowToCustomer{
+    margin:20px 0 20px 67px;
+}
+.ifShowToCustomerCBX{
+    vertical-align:middle;
+    margin-right:6px;
+}
+#saveAndSubmit{
+    width:80px;
+    height:30px;
+    display:block;
+    line-height:30px;
+    color:#fff;
+    text-align:center;
+    background:#a80011;
+    margin-left:67px;
+}
+
+.navEditTitle{
+    font-size:14px;
+    height:68px;
+    line-height:68px;
+}
+.navEditTitle input{
+    margin-left:40px;
+    vertical-align:middle;
+    margin-right:3px;
+    width:14px;
+    height:14px;
+}
+.borderGrayWrap{
+    border:1px solid #ccc;
+    padding-left:20px;
+    margin-bottom:30px;
+}
+.saveA{
+    width:72px;
+    height:30px;
+    text-align:center;
+    line-height:30px;
+    color:#fff;
+    background:#a80011;
+    font-size:12px;
+    margin-top:20px;
+    margin-right:20px;
+}
+.tijiaoNav{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+#content{width:100%;margin:0 auto;min-width:1230px;height:820px;background:#eff0f2;margin:30px 0 60px 0;}
+.content_wxPay{width:1180px;margin:0 auto;height:725px;}
+.content_wxPay1{line-height:60px;font-size:14px;font-weight:900; }
+.content_wxPay1 .red{font-size:20px;}
+.content_wxPay1 p{overflow:hidden;}
+.content_wxPay11{line-height:28px;width:82px;text-align:center;background:#dadada;margin:10px 10px auto auto;cursor:pointer;font-weight: 100;}
+.content_wxPay2{height:585px;border-top:2px solid #ccc;border-bottom:2px solid #ccc;padding:66px 0 0 190px;background:#fff url(../img/zhiPay1.jpg) no-repeat 500px 70px;}
+.content_wxPay31{width:183px;height:315px;border:1px solid #ccc;margin-left:100px;}
+.content_wxPay311{text-align: center;line-height:30px;font-size:14px;}
+.content_wxPay312{text-align:center;line-height:50px;font-size:20px;  }
+.content_wxPay313{padding:6px;}
+.content_wxPay313>img{width:169px;height:169px;}
+.content_wxPay3131{text-indent: 55px;margin-top:15px;background:url(../img/zhiPay3.jpg) no-repeat 20px 4px;}
+
+
+

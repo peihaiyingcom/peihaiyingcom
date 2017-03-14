@@ -1,0 +1,64 @@
+.greyBar{
+    width:998px;border:1px solid #ccc;
+    height:36px;
+    text-indent:20px;
+    line-height:36px;
+    font-size:12px;
+    background:#f1f1f1;
+}
+.ADPicEditArea{
+    padding-left:20px;
+    overflow:hidden;
+    padding-top:28px;
+}
+.ADItemTitle{
+    width:66px;
+    display:inline-block;
+    vertical-align:top;
+    padding-top:5px;
+}
+.ADInput{
+    width:178px;
+    height:28px;
+    border:1px solid #ccc;
+    text-indent:12px;
+}
+.ADEditP{
+    padding:10px 0;
+    position:relative;
+}
+.ADEditP input{
+    vertical-align:middle;
+}
+#saveAndSubmit{
+    margin-left:86px;
+    margin-top:20px;
+}
+.ADFileInput{
+    display:inline-block;
+    width:89px;
+    height:89px;
+    border:1px solid #ccc;
+    line-height:79px;
+    font-size:80px;
+    text-align:center;
+    color:#ccc;
+    cursor:pointer;
+}
+.tips{
+    color:#999;
+    position:absolute;
+    bottom:10px;
+    left:170px;
+}
+.saveAndSubmit{
+    width:80px;
+    height:30px;
+    display:block;
+    line-height:30px;
+    color:#fff;
+    text-align:center;
+    background:#a80011;
+    margin-left:85px;
+    margin-top:20px;
+}

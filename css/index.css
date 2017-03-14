@@ -14,8 +14,8 @@
 #content22L{ padding:20px 24px; box-shadow:0 0 10px 2px #e8e8e8; width:240px; height:500px; }
 .xian{ width:100%; height:1px; background:#cccccc; }
 #content22L1 span{ width:119px; display:inline-block; font-size:18px; margin-bottom:20px;cursor:pointer;}
-#content22L1 span:nth-child(1){ border-right:1px solid #ccc; text-indent:30px; background:url(../img/redTel.jpg) no-repeat 6px 3px; }
-#content22L1 span:nth-child(2){ text-align:right; background:url(../img/dingZhi.jpg) no-repeat 25px 3px; }
+#content22L1 span:nth-child(1){ border-right:1px solid #ccc; text-indent:30px; background:url(../img/redTel.jpg) no-repeat 6px 3px;background-size:18px 18px }
+#content22L1 span:nth-child(2){ text-align:right; background:url(../img/dingZhi.jpg) no-repeat 25px 3px;background-size:18px 18px}
 #content22L2{position:relative}
 #content22L2>div{position:absolute;width:20px;height:100%;right:0;top:0;color:#999;line-height:20px;}
 #content22L2, #content22L4, #content22L5{ margin-top:30px; height:30px; border:1px solid #ccc; border-radius:3px; overflow:hidden; }
@@ -324,6 +324,120 @@ content12Html12{position:relative}
 .index_dzSuc2{width:496px;height:100%;float:right;box-sizing: border-box;padding:36px 80px 0 0;}
 .index_dzSuc2>h3{font-size:28px;text-indent:30px;}
 .index_dzSuc2>p{margin-top:140px;font-size:28px;text-align:center;line-height:45px;}
+
+#calculateModal{
+    width:100%;
+    height:600px;
+    background:rgba(0,0,0,0.5);
+    position:fixed;
+    bottom:-500px;
+    z-index:99999;
+    transition:all 1s;
+}
+#calculateTitle{
+    height:130px;
+    line-height:130px;
+    background:url(../img/suanyisuan_03.png) no-repeat 40% center;
+    position:relative;
+    cursor:pointer;
+}
+
+#calText{
+    position:absolute;
+    font-size:18px;
+    left:55%;
+    top:60px;
+    line-height:18px;
+    color:#fff;
+}
+#calculateArrow{
+    position:absolute;
+    width:30px;
+    height:30px;
+    left:64%;
+    top:55px;
+}
+.calArrowUp{
+    background:url(../img/suanyisuan1.png) no-repeat center center;
+}
+.calArrowDown{
+    background:url(../img/suanyisuan_06.png) no-repeat center center;
+}
+#calculateContent{
+    padding-left:100px;
+    width:950px;
+    height:435px;
+    margin:0 auto;
+    background:#fff;
+    overflow:hidden;
+}
+.userCalculatedNum{
+    font-size:12px;
+    color:#a80011;
+    margin-top:40px;
+    margin-left:120px;
+    margin-bottom:30px;
+}
+.calForm{
+    overflow:hidden;
+    width:850px;
+}
+.calForm p{
+    height:40px;
+    line-height:40px;
+    margin-bottom:18px;
+}
+.calFormText{
+    width:110px;
+    height:40px;
+    line-height:40px;
+    text-align:right;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:10px;
+}
+.calForm .shortSelect{
+    width:126px;
+    height:40px;
+    border:1px solid #ccc;
+    padding-left:10px;
+    color:#999;
+    margin-right:10px;
+}
+.calForm .longSelect{
+    width:266px;
+    height:40px;
+    border:1px solid #ccc;
+    padding-left:10px;
+    color:#999;
+    margin-right:10px;
+}
+.calForm .longInput{
+    width:256px;
+    height:40px;
+    border:1px solid #ccc;
+    padding-left:10px;
+    color:#999;
+    margin-right:10px;
+}
+
+#startCal{
+    width:124px;
+    height:38px;
+    background:#a80011;
+    text-align:center;
+    display:block;
+    line-height:38px;
+    color:#fff;
+    margin-left:136px;
+    margin-top:30px;
+}
+
+
+
+
+
+
 
 
 

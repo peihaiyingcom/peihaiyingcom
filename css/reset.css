@@ -30,6 +30,6 @@ q:before,q:after {
 abbr,acronym {
     border: 0;
 }
-input{
+input,select{
     outline:none;
 }

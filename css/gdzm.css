@@ -1,0 +1,57 @@
+.bigBlockBg{
+    height:615px;
+    background:url(../img/gdzm2_01.jpg) no-repeat center center;
+}
+.bigBlockBg .bigBg{
+    background:url(../img/gdzm_02.png) no-repeat center center;
+}
+
+.bigBlockBg1{
+    height:796px;
+    background:url(../img/gdzm2_02.jpg) no-repeat center center;
+}
+
+.bigBlockBg1 .bigBg{
+    background:url(../img/gdzm_04.png) no-repeat center center;
+}
+
+.bigBlockBg2{
+    background:#fff;
+}
+.bigBlockBg2 .bigBg{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:flex;
+    justify-content:space-around;
+    background:url(../img/gdzm_07.png) no-repeat center 10%;
+}
+.bigBlockBg2 .bigBg .bigBg2Block{
+    margin-top:188px;
+    width:360px;
+    height:340px;
+    background:url(../img/gdzm_20.jpg) no-repeat center bottom;
+}
+.bigBlockBg2 .bigBg .bigBg2Block img{
+    width:100%;
+    display:block;
+}
+.bigBlockBg2 .bigBg .bigBg2Block p{
+    width:340px;
+    padding:0 10px;
+    margin-top:10px;
+    font-size:18px;
+    line-height:40px;
+}
+.bigBlockBg4{
+    height:571px;
+    background:url(../img/gdzm2_04.jpg) no-repeat center center;
+}
+.bigBlockBg4 .bigBg{
+    background:url(../img/gdzm_23.png) no-repeat center center;
+}
+
+
+
+
+
+

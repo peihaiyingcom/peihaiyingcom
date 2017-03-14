@@ -1,0 +1,180 @@
+#addGoods{
+    width:80px;
+    height:30px;
+    background:#a80011;
+    text-align:center;
+    line-height:30px;
+    color:#fff;
+    border:none;
+    cursor:pointer;
+    margin-bottom:28px;
+}
+.goodsAllDo{
+    height:20px;
+    line-height:20px;
+    margin-bottom:25px;
+}
+.goodsAllDo input{
+    vertical-align:middle;
+    margin-left:20px;
+    border:1px solid #ccc;
+    background:#fff;
+}
+#goodsTable{
+    width:998px;
+    border:1px solid #ccc;
+    margin-bottom:38px;
+}
+#goodsTable td,
+#goodsTable th{
+    text-align:center;
+}
+#goodsTable thead{
+    height:44px;
+    line-height:44px;
+    background:#f1f1f1;
+    border-bottom:1px solid #ccc;
+}
+.selectBox{
+    vertical-align:middle;
+}
+.productImg{
+    width:70px;
+    height:70px;
+    vertical-align:middle;
+}
+#goodsTable tbody tr{
+    height:102px;
+    border-bottom:1px solid #ccc;
+    line-height:102px;
+}
+#goodsTable .goodsName{
+    display:inline-block;
+    vertical-align:middle;
+    width:140px;
+    line-height:20px;
+}
+#goodsTable .edit{
+    color:#4194c4;
+}
+.modalWrap{
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.7);
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.addGoodsModal{
+    width:980px;
+    height:808px;
+    background:#fff;
+    position:fixed;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+}
+.addGoodsModalTitle{
+    width:100%;
+    height:36px;
+    background:#a80011;
+    color:#fff;
+    text-align:center;
+    line-height:36px;
+    font-size:14px;
+}
+.redCha{
+    float:right;
+    background:url(../img/redCha.jpg) no-repeat;
+    width:18px;
+    height:18px;
+    display:block;
+    margin:10px 10px 0 0;
+    cursor:pointer;
+}
+.modalContent{
+    width:100%;
+    overflow:hidden;
+}
+.modalUl{
+    margin-top:24px;
+}
+.modalUl li{
+    margin-left:20px;
+    margin-right:25px;
+    margin-bottom:20px;
+    float:left;
+}
+.modalUl li .name{
+    width:80px;
+    text-align:right;
+    padding-top:5px;
+    margin-right:5px;
+    float:left;
+}
+.modalUl li .value{
+    float:left;
+    width:178px;
+    height:28px;
+    border:1px solid #ccc;
+    text-indent:10px;
+}
+.modalUl li select.value{
+    text-indent:0;
+    padding-left:10px;
+    height:30px;
+    width:180px;
+}
+
+#goodsIntroduce,#afterSaleService{
+    width:756px;
+    height:180px;
+}
+#saveGoodsInfo{
+    width:80px;
+    height:30px;
+    background:#a80011;
+    text-align:center;
+    line-height:30px;
+    color:#fff;
+    display:block;
+    float:left;
+    margin-left:105px;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

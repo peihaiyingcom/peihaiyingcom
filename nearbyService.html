@@ -14,6 +14,7 @@
 </head>
 <!--袁阳 2017.2.14-->
 <body>
+
 <div id='head'>
     <div id="headContent">
         <div id='head1' class='left'>
@@ -21,17 +22,35 @@
             <span><a href="" class='red'>[切换]</a></span>
         </div>
         <div id='head2' class='right'>
-            <ul>
+            <ul class='head21'>
                 <li>
-                    <a class='red' href="">登录</a>
-                    <a class='red marL' href="">注册</a>
+                    <a class='red' href="register.html">登录</a>
+                    <a class='red marL' href="register.html">注册</a>
+                    <div class='ind_bor'></div>
                 </li>
-                <li>消息</li>
-                <li class='padR'>我的众湃</li>
-                <li>我要加盟</li>
-                <li>商户中心</li>
-                <li>手机众湃</li>
-                <li>400-0318-198</li>
+                <li><a href="">消息</a>
+                <div class='ind_bor'></div>
+                </li>
+                <li class='padR la_down'>
+                    <span>我的众湃</span>
+                    <ul class='shopCenter hidden'>
+                        <li><a href="">我的订单</a></li>
+                        <li><a href="">我的收藏</a></li>
+                    </ul>
+                    <div class='ind_bor'></div>
+                </li>
+                <li><a href="">我要加盟</a><div class='ind_bor'></div></li>
+                <li class='la_down'>
+                    <span>商户中心</span>
+                    <ul class='shopCenter hidden'>
+                        <li><a href="">免费开店</a></li>
+                        <li><a href="">已卖出商品</a></li>
+                        <li><a href="">出售中商品</a></li>
+                    </ul>
+                    <div class='ind_bor'></div>
+                </li>
+                <li><a href="">手机众湃</a><div class='ind_bor'></div></li>
+                <li><span>400-0318-198</span></li>
             </ul>
         </div>
     </div>
@@ -39,7 +58,7 @@
 <div id='nav'>
     <div id='content1'>
         <div id='content1L'>
-            <h1><img src="img/logo.jpg" alt=""></h1>
+            <h1><a href="index.html"><img src="img/logo.jpg" alt=""></a></h1>
             <div class='search'>
                 <div class='search1'>
                     <select name="" id="">
@@ -577,33 +596,89 @@
         <p class="usuallyFQ_text">安装网点是众派网在区县的售后服务接机点，负责免费预约测量和上门安装服务；负责免费预约测量和上门安装服务；</p>
     </div>
 </div>
-
+<div class="freeOrderModalWrap">
+    <div class="freeOrderModal">
+        <div class="closeModal" onselectstart="return false;">+</div>
+        <form class="consumerInfo">
+            <h3 class="modalTitle">免费预约测量<span class="customerNumText">今天已有<span class="customerNum">999</span>名业主申请</span></h3>
+            <table class="formTable">
+                <tr>
+                    <td class="formControlLeft">您的称呼：</td>
+                    <td class="formControlRight"><input class="formControlRightInput" name="name" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="formControlLeft">手机号码：</td>
+                    <td class="formControlRight"><input class="formControlRightInput" name="mobilePhone" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="formControlLeft">所在区域：</td>
+                    <td class="formControlRight">
+                        <select class="areaSelect">
+                            <option class="placeHolder" value="0">省/市</option>
+                        </select>
+                        <select class="areaSelect">
+                            <option class="placeHolder"  value="0">市/地区</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="formControlLeft"></td>
+                    <td class="formControlRight"><input class="formControlRightInput" name="detailLocation" placeholder="请输入详细地址" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="formControlLeft">测量时间：</td>
+                    <td class="formControlRight">
+                        <select class="formControlRightInput" name="orderTime"></select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="formControlLeft">建筑面积：</td>
+                    <td class="formControlRight"><input class="formControlRightInput" name="proportion" placeholder="单位：㎡" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="formControlLeft">设计风格：</td>
+                    <td class="formControlRight"><input class="formControlRightInput" name="designStyle" type="text"></td>
+                </tr>
+                <tr>
+                 <td class="readMeTr" colspan="2">
+                     <input class="readMeCbx" type="checkbox"/>我已阅读并接受《众湃免费测量常见问题条款》
+                 </td>
+                </tr>
+                <tr>
+                    <td class="readMeTr" colspan="2">
+                        <input class="confirmForm" type="submit" value="马上申请"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
 <div id='footer'>
     <div id='footer1'>
-        <ul>
-            <li>
-                <p>网购加体验馆</p>
-            </li>
-            <li>
-                <p>网购加体验馆</p>
-            </li>
-            <li>
-                <p>网购加体验馆</p>
-            </li>
-            <li>
-                <p>网购加体验馆</p>
-            </li>
-            <li>
-                <p>网购加体验馆</p>
-            </li>
-            <li>
-                <p>网购加体验馆</p>
-            </li>
-            <li>
-                <p>网购加体验馆</p>
-            </li>
-        </ul>
-    </div>
+            <ul>
+                <li>
+                    <p>网购+体验馆</p>
+                </li>
+                <li>
+                    <p>100%正品</p>
+                </li>
+                <li>
+                    <p>双重质检</p>
+                </li>
+                <li>
+                    <p>全球化采购</p>
+                </li>
+                <li>
+                    <p>无理由退货</p>
+                </li>
+                <li>
+                    <p>贵就赔</p>
+                </li>
+                <li>
+                    <p>万千口碑</p>
+                </li>
+            </ul>
+        </div>
 </div>
 <div id='footer2'>
     <div id='footer21'>
@@ -718,7 +793,16 @@
     $('.areaBtn').on('mouseleave',function () {
         $('.tabCard').hide();
     })
-
+    //预约弹窗
+    $(function(){
+            $('.freeOrder').click(function () {
+                $('.freeOrderModalWrap').show(500);
+            });
+            $('.closeModal').click(function () {
+                $('.freeOrderModalWrap').hide();
+            });
+    })
 </script>
+
 </body>
 </html>

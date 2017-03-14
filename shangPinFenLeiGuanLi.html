@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="css/head.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/myself.css">
+    <link rel="stylesheet" href="css/bossCenter.css">
+    <link rel="stylesheet" href="css/shangPinLieBiao.css">
+    <link rel="stylesheet" href="css/fenLeiGuanLi.css">
+</head>
+
+<body>
+
+<div id='head'>
+    <div id="headContent">
+        <div id='head1' class='left'>
+            <span>北京</span>
+            <span><a href="" class='red'>[切换]</a></span>
+        </div>
+        <div id='head2' class='right'>
+            <ul class='head21'>
+                <li>
+                    <a class='red' href="register.html">登录</a>
+                    <a class='red marL' href="register.html">注册</a>
+                    <div class='ind_bor'></div>
+                </li>
+                <li><a href="">消息</a>
+                    <div class='ind_bor'></div>
+                </li>
+                <li class='padR la_down'>
+                    <span>我的众湃</span>
+                    <ul class='shopCenter hidden'>
+                        <li><a href="">我的订单</a></li>
+                        <li><a href="">我的收藏</a></li>
+                    </ul>
+                    <div class='ind_bor'></div>
+                </li>
+                <li><a href="">我要加盟</a>
+                    <div class='ind_bor'></div>
+                </li>
+                <li class='la_down'>
+                    <span>商户中心</span>
+                    <ul class='shopCenter hidden'>
+                        <li><a href="">免费开店</a></li>
+                        <li><a href="">已卖出商品</a></li>
+                        <li><a href="">出售中商品</a></li>
+                    </ul>
+                    <div class='ind_bor'></div>
+                </li>
+                <li><a href="">手机众湃</a>
+                    <div class='ind_bor'></div>
+                </li>
+                <li><span>400-0318-198</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id='content'>
+    <div id='myself_1'>
+        <div class='myself_11'>
+            <h2 class='left'></h2>
+            <ul class='left'>
+                <li class='myself_bo'><a class='fff' href="myself.html">我是卖家</a></li>
+                <li><a class='fff' href="attSetting.html">账户设置</a></li>
+                <li><a class='fff' href="myself_xx.html">消息</a></li>
+            </ul>
+            <div class='left my_sear'>
+                <input class='left' type="text">
+                <div class='my_sear_btn'>搜索</div>
+            </div>
+        </div>
+
+    </div>
+    <div id='myself_2'>
+        <div id='myself_2L'>
+            <div class="padLft10px bbm1px">
+                <div class='myself_lBt'>分类管理</div>
+                <ul class='myself_chos'>
+                    <li><a class="red" href="shangPinFenLeiGuanLi.html">分类管理</a></li>
+                </ul>
+            </div>
+            <div class="padLft10px bbm1px">
+                <div class='myself_lBt'>商品分类</div>
+                <ul class='myself_chos'>
+                    <li><a href="shangPinFenLei.html">全部商品</a><span class="arrowDown"></span></li>
+                    <li><a href="weiFenLeiShangPin.html">未分类商品</a><span class="arrowDown"></span></li>
+                    <li class="active"><a href="">已分类商品</a><span class="arrowDown"></span>
+                        <ul class="ulInLi">
+                            <li><a href="">美意达系列</a></li>
+                            <li><a href="">网天下系列</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id='myself_2R'>
+            <div class="breadNav">
+                <a href="" class="red">我是卖家></a><a href="" class="red">店铺管理></a><span>分类管理</span>
+            </div>
+            <div class="greyBar">
+               添加分类
+            </div>
+            <table class="productTable">
+                <thead>
+                <tr class="colspan7tr">
+                    <td colspan="7">
+                        <input class="selectAllInput" type="checkbox">全选 <a href="" class="doSthBtn">批量删除</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>分类名称</th>
+                    <th>分类图片</th>
+                    <th>创建时间</th>
+                    <th style="border-right: 1px solid #ccc">操作</th>
+                </tr>
+                </thead>
+                <tbody class="proTbody">
+                <tr class="proTbodyTr">
+                    <td><input class="selectBox" type="checkbox"></td>
+                    <td><span class="arrowRight"></span><input type="text" value="美意达系列" class="fenleikuang"></td>
+                    <td><label class="addSerPic">+<input style="display:none" type="file"></label>添加图片</td>
+                    <td>
+                        2017-03-02
+                    </td>
+                    <td>
+                        <a class="editChanPin" href="">删除</a>丨<a class="editChanPin" href="">查看</a>
+                    </td>
+                </tr>
+                </tbody>
+                <tbody>
+                <!--<tr style="border-bottom:none;" class="colspan7tr">-->
+                    <!--<td colspan="7">-->
+                        <!--<input class="selectAllInput" type="checkbox">全选 <a href="" class="doSthBtn">删除</a><a href=""-->
+                                                                                                              <!--class="doSthBtn">上架</a><a-->
+                            <!--href="" class="doSthBtn">下架</a>-->
+                        <!--<div class="paginationR">-->
+                            <!--共有<span>30</span>条记录 <a class="paginationSX" href="javascript:;">&lt;上一页</a> <a href="javascript:;" class="pageNum">1</a><a href="javascript:;" class="pageNum">2</a><a href="javascript:;" class="pageNum">3</a>···<a href="javascript:;" class="pageNum">6</a> <a class="paginationSX" href="javascript:;">&gt;下一页</a>-->
+                        <!--</div>-->
+                    <!--</td>-->
+                <!--</tr>-->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div id='footer'>
+    <div id='footer2'>
+        <div id='footer21'>
+            <div>
+                <p class='footerBT'>购物指南</p>
+                <p><a href="">注册登录</a></p>
+                <p><a href="">密码相关</a></p>
+                <p><a href="">购物流程</a></p>
+                <p><a href="">交易条款</a></p>
+            </div>
+            <div>
+                <p class='footerBT'>支付方式</p>
+                <p><a href="">货到付款</a></p>
+                <p><a href="">网银支付</a></p>
+                <p><a href="">银行转账</a></p>
+                <p><a href="">发票说明</a></p>
+            </div>
+            <div>
+                <p class='footerBT'>消费保障</p>
+                <p><a href="">售后服务政策</a></p>
+                <p><a href="">退款说明</a></p>
+                <p><a href="">安装/维修</a></p>
+                <p><a href="">咨询投诉</a></p>
+            </div>
+            <div>
+                <p class='footerBT'>商家服务</p>
+                <p><a href="">商家入驻</a></p>
+                <p><a href="">商家中心</a></p>
+                <p><a href="">众湃智库</a></p>
+                <p><a href="">众湃规则</a></p>
+                <p><a href="">物流服务</a></p>
+            </div>
+        </div>
+        <div id='footer22'></div>
+        <div id='footer23'>
+            <div id='footer231'>
+                <div class='left'>客户热线：</div>
+                <div class='left'>
+                    <span>010-009-9988(8:00-23:00)</span>
+                    <span>众湃在全国实体店100家、样板间56家</span>
+                    <span>查看全国实体店</span>
+                    <span>免费发送到手机</span>
+                </div>
+            </div>
+            <div id='footer232'>
+                <div class='left'>友情链接：</div>
+                <div class='left'>
+                    <p>
+                        <a href="">中国建材网</a>
+                        <a href="">中国建材网</a>
+                        <a href="">中国建材网</a>
+                        <a href="">中国建材网</a>
+                        <a href="">中国建材网</a>
+                        <a href="">中国建材网</a>
+                        <a href="">中国建材网</a>
+                        <a href="">中国建材网</a>
+                        <a href="">中国建材网</a>
+                        <a href="">中国建材网</a>
+                        <a href="">中国建材网</a>
+                        <a href="">中国建材网</a>
+                        <a href="">中国建材网</a>
+                        <a href="">中国建材网</a>
+                        <a href="">中国建材网</a>
+                        <a href="">中国建材网</a>
+                        <a href="">中国建材网</a>
+                        <a href="">中国建材网</a>
+                    </p>
+                </div>
+            </div>
+
+            <p id='footer233'>
+                <span><a href="">关于我们</a></span>
+                <span><a href="">联系我们</a></span>
+                <span><a href="">帮助中心</a></span>
+                <span><a href="">意见反馈</a></span>
+                <span><a href="">人才招聘</a></span>
+                <span><a href="">法律声明</a></span>
+            </p>
+            <p class='center'>Copyright©2004-2017 众湃 zhongpai.com 版权所有</p>
+            <p class='center'>众湃门窗设计安装网 京ICP备11228号</p>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script>
+
+
+
+    var i=1;
+    while (i<4){
+        $('.proTbody').eq(0).append($('.proTbody').eq(0).find('.proTbodyTr').eq(0).clone(true));
+        i++;
+    }
+
+
+
+</script>
+</html>
