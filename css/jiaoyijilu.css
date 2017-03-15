@@ -1,0 +1,24 @@
+.jyjl1{line-height:30px;overflow:hidden;margin:30px 0;}
+.jyjl1 input{display:inline-block;height:28px;width:120px;}
+
+input[type=date]::-webkit-inner-spin-button { visibility: hidden; }
+
+.ssBtn{width:80px;line-height:30px;text-align:center;background:#a80001;color:#fff;margin-left:60px;cursor:pointer;}
+
+.jyjl2{border:1px solid #dbdbdb;}
+.jyjl21{padding:13px 0;background:#f1f1f1;}
+.jyjl21 span{padding:0 15px;border-right:1px solid #ccc;cursor:pointer}
+.jyjl21 .no_b{border:none;}
+.jyjl22{line-height:36px;padding-left:30px;overflow:hidden;}
+.jyjl22>div{float:left;}
+.jyjl221{width:177px;}
+.jyjl222{width:184px;}
+.jyjl223{width:167px;}
+.jyjl224{width:190px;}
+.jyjl225{width:170px;}
+.jyjl226{width:80px;}
+
+.jyjl3 li{padding: 13px 0 13px 30px;border-bottom:1px solid #ccc;overflow:hidden;}
+.jyjl3 li>div{float:left;}
+.jyjl3 li .jyjl224 span{padding-right:20px;background:url(../img/jyju1.jpg) no-repeat right top;}
+.jyjl3 li .jyjl226{cursor:pointer;}

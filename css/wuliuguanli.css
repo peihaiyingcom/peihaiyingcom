@@ -26,3 +26,186 @@
 .qxyktfw{
     color:#0099ff;
 }
+.tabTwo{
+    width:100%;
+    border-bottom:2px solid #a80011;
+    margin-bottom:24px;
+    height:32px;
+}
+.tabTwoTab{
+    width:120px;
+    margin-right:1px;
+    height:32px;
+    line-height:32px;
+    background:#f1f1f1;
+    text-align:center;
+    display:block;
+    float:left;
+    cursor:pointer;
+    color:#333;
+}
+.tabTwoTab.active{
+    background:#a80011;
+    color:#fff;
+}
+.xinjianBtn{
+    float:right;
+    background:#a80011;
+    color:#fff;
+}
+.tabBar{
+    width:998px;
+    height:42px;
+    line-height:42px;
+    background:#f1f1f1;
+    border:1px solid #ccc;
+    margin-bottom:24px;
+}
+.tabBar li{
+    float:left;
+    text-align:center;
+}
+.tabBar li:nth-child(1){
+    width:260px;
+}
+.tabBar li:nth-child(2){
+    width:180px;
+}
+.tabBar li:nth-child(3){
+    width:130px;
+}
+.tabBar li:nth-child(4){
+    width:130px;
+}
+.tabBar li:nth-child(5){
+    width:160px;
+}
+.tabBar li:nth-child(6){
+    width:100px;
+}
+.wuLiuUl{
+    margin-bottom:15px;
+}
+.wuLiuUl .wuLiuLiW{
+    width:998px;
+    border:1px solid #ccc;
+    height:135px;
+    margin-bottom:20px;
+}
+.wuLiuTitleP{
+    width:978px;
+    padding-left:20px;
+    height:34px;
+    background:#f1f1f1;
+    line-height:34px;
+}
+.wuLiuTitleP span{
+    padding:0 10px;
+    color:#333;
+}
+.wuLiuLiUl{
+    width:100%;
+    height:101px;
+    line-height:101px;
+}
+.wuLiuLiUl li{
+    float:left;
+    text-align:center;
+}
+.wuLiuLiUl li:nth-child(1){
+    width:260px;
+}
+.wuLiuLiUl li:nth-child(2){
+    width:180px;
+}
+.wuLiuLiUl li:nth-child(3){
+    width:130px;
+}
+.wuLiuLiUl li:nth-child(4){
+    width:130px;
+}
+.wuLiuLiUl li:nth-child(5){
+    width:160px;
+}
+.wuLiuLiUl li:nth-child(6){
+    width:100px;
+}
+.wuLiuImg{
+    width:70px;
+    height:70px;
+    vertical-align:middle;
+    margin-right:10px;
+}
+.pAtImgRight{
+    width:110px;
+    display:inline-block;
+    line-height:20px;
+    color:#333;
+    vertical-align:middle;
+    text-align:left;
+}
+.fahuoBtn{
+    width:40px;
+    height:20px;
+    border-radius:2px;
+    display:inline-block;
+    vertical-align:middle;
+    background:#0099ff;
+    line-height:20px;
+    color:#fff;
+}
+.paginationR{
+    margin-bottom:85px;
+}
+.queRenFaHuo{
+    padding-left:200px;
+}
+.queRenFaHuo #toSearch{
+    margin-left:70px;
+    margin-top:30px;
+}
+.wuLiuGenZongBlock{
+    width:488px;
+    height:376px;
+    border:1px solid #ccc;
+    float:left;
+}
+.wuLiuGenZongWrap .wuLiuGenZongBlock:nth-child(1){
+    margin-right:20px;
+}
+.wuLiuGenZongBlockTitle{
+    width:100%;
+    height:42px;
+    line-height:42px;
+    text-align:center;
+    color:#333;
+    border-bottom:1px solid #ccc;
+    background:#f1f1f1;
+    margin-bottom:30px;
+}
+.wuLiuTextP{
+    height:30px;
+    line-height:30px;
+    color:#333;
+    padding-left:20px;
+}
+.wuLiuLuXianP{
+    height:56px;
+    padding-left:80px;
+    overflow:hidden;
+    background:url(../img/wuliuluxianshu.png) 10% center no-repeat;
+}
+.wuLiuLuXianXP{
+    margin-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+

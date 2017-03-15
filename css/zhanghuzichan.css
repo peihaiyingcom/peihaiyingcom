@@ -1,0 +1,23 @@
+.zhzc{width:998px;height:305px;border:1px solid #ccc;margin:30px 0;}
+.zhzc>div{float:left;}
+.zhzc1{width:498px;border-right:1px solid #ccc;height:100%;}
+.zhzc2{width:498px;height:100%;}
+.zhzc1 h3,.zhzc2 h3{line-height:100px;text-align:center;font-size:18px;}
+.zhzc1 p{text-align:center;padding-left:70px;}
+.zhzc1 p .red{font-size:24px;}
+.zhzc1 p .tixian{padding:5px 12px;border:1px solid #ccc;margin-left:30px;}
+.tixian a{width:100%;height:100%;}
+
+
+.zhzc21{width:364px;margin:0 auto;}
+.zhzc21 li{overflow:hidden;line-height:44px;border:1px solid #ccc;border-radius:5px;margin-bottom:20px;}
+.zhzc21 li input{margin:15px;}
+.zhzc21 li .right{margin-right:20px;}
+.hasTb{padding-left:20px;background:url(../img/zijinguanli3.jpg) no-repeat 0 14px;}
+
+.zhzc22 {
+	text-align:right;
+    padding-right:70px;
+}
+
+

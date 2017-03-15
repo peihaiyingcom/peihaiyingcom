@@ -1,0 +1,12 @@
+.wdyhk{width:1000px;}
+
+.wdyhk ul li{border:1px solid #ccc;border-radius:10px;width:230px;height:158px;float:left;margin-right:20px;}
+
+.wdyhk1{overflow:hidden;line-height:50px;padding:0 17px;}
+.wdyhk1 .left{padding-left:20px;background:url(../img/zijinguanli3.jpg) no-repeat 0 18px;}
+.wdyhk2{line-height:33px;border-top:1px solid #ccc;background:#d1d1d1;text-indent:44px;}
+.wdyhk3{margin:50px 20px auto auto;width:50px;cursor:pointer;}
+
+.wdyhk ul .tianjia{background:url(../img/wodeyinhangka1.jpg) no-repeat 100px 53px;border:1px dashed #ccc;padding-top:90px;box-sizing:border-box;cursor:pointer}
+
+.tianjia .colBlu{text-align: center; }
